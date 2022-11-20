@@ -13,13 +13,13 @@
 }
 
 .odd-item::after {
-	content: url("/open-purple.svg");
+	content: url("open-purple.svg");
 	float: right;
 }
 
 .even-item::after {
 	content: "";
-	background-image: url("/open.svg");
+	background-image: url("open.svg");
 	display: block;
 	width: 46px;
 	height: 46px;
