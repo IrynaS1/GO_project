@@ -5,6 +5,7 @@
 	font-size: 24px;
 	padding: 30px 70px;
 	margin-bottom: 20px;
+	list-style-type: none;
 }
 
 .faq :nth-child(2n) {
@@ -12,16 +13,20 @@
 	background-color: #440F51;
 }
 
-.odd-item::after {
-	content: url("open-purple.svg");
+.odd-item:after {
+	content: url("./images/open-purple.svg");
 	float: right;
 }
 
-.even-item::after {
+.even-item:after {
 	content: "";
-	background-image: url("open.svg");
+	background-image: url("./images/open.svg");
 	display: block;
 	width: 46px;
 	height: 46px;
 	float: right;
+}
+
+.faq-item:last-child {
+	margin-bottom: 100px;
 }
