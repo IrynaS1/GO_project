@@ -1,0 +1,46 @@
+.halls-list {
+	padding-bottom: 100px;
+}
+
+.halls-list__hall {
+	width: auto;
+	height: 710px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.halls-list__hall:not(:last-child) {
+	margin-bottom: 60px;
+}
+
+.halls-list__hall_first-hall {
+	background-image: url("../images/pic2.jpg");
+}
+
+.halls-list__hall_second-hall {
+	background-image: url("../images/pic3.jpg");
+}
+
+.halls-list__hall_third-hall {
+	background-image: url("../images/pic4.jpg");
+}
+
+.halls-list__hall_fourth-hall {
+	background-image: url("../images/pic5.jpg");
+}
+
+.halls-list__name-hall {
+	text-transform: uppercase;
+	text-align: center;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 80px;
+	width: 260px;
+	height: 160px;
+	padding-top: 275px;
+	padding-right: 460px;
+	padding-bottom: 275px;
+	padding-left: 650px;
+}

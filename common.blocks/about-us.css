@@ -1,0 +1,52 @@
+.about-us__about-us-content {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 78px;
+}
+
+.about-us__quote {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 50px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	white-space: pre-line;
+
+}
+
+.about-us__quote:before {
+	content: "\275D";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 50px;
+	color: #6C0287;
+	padding-right: 16px;
+}
+
+.about-us__quote:after {
+	content: "\275E";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 50px;
+	color: #6C0287;
+}
+
+.about-us__author-quote-image {
+	padding-left: 760px;
+}
+
+.about-us__about-author {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	margin-top: -80px;
+	margin-left: 870px;
+	white-space: pre-line;
+	margin-bottom: 100px;
+}
