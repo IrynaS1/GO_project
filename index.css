@@ -1,3 +1,17 @@
 @import url("style.css");
 
-@import url("faq.css");
+@import url("./common.blocks/top-wrapper.css");
+
+@import url("./common.blocks/titles.css");
+
+@import url("./common.blocks/halls.css");
+
+@import url("./common.blocks/form-order.css");
+
+@import url("./common.blocks/about-us.css");
+
+@import url("./common.blocks/faq.css");
+
+@import url("./common.blocks/address-item.css");
+
+@import url("./common.blocks/social-item.css");

@@ -1,0 +1,45 @@
+.address-item {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.address-item__location {
+	background-image: url("../images/location.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-right: 30px;
+	padding-left: 80px;
+	margin-left: 20px;
+	white-space: pre-line;
+	margin-bottom: 38px;
+}
+
+.address-item__phone {
+	background-image: url("../images/bx_bxs-phone-call.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-right: 30px;
+	padding-left: 80px;
+	margin-left: 20px;
+	margin-left: 20px;
+	white-space: pre-line;
+	margin-bottom: 11px;
+	text-decoration: none;
+}
+
+.address-item__email {
+	background-image: url("../images/envelope.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-right: 30px;
+	padding-left: 80px;
+	margin-left: 20px;
+	margin-left: 20px;
+	white-space: pre-line;
+	margin-bottom: 39px;
+}

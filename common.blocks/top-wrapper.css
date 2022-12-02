@@ -1,0 +1,27 @@
+.top-wrapper {
+	padding-bottom: 100px;
+}
+
+.top-wrapper__main-title {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 150px;
+	line-height: 150px;
+	margin: 0 auto;
+	margin-right: 297px;
+	text-transform: uppercase;
+}
+
+.top-wrapper__under-main-title {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 50px;
+	margin-top: 0;
+	margin-left: 100px;
+}
+
+.top-wrapper__man-in-vr-img {
+	margin-top: -110px;
+	margin-left: 615px;
+}
