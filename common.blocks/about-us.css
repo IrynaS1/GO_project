@@ -1,9 +1,23 @@
-.about-us__about-us-content {
+.about-us {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.about-us__pic {
+	min-width: 600px;
+	min-height: 596px;
+	padding-right: 0;
+	margin-right: 80px;
+}
+
+.about-us__about-us-text {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 28px;
 	margin-bottom: 78px;
+	min-width: 500px;
+	margin-bottom: 59px;
 }
 
 .about-us__quote {
@@ -14,7 +28,7 @@
 	text-transform: uppercase;
 	margin-bottom: 40px;
 	white-space: pre-line;
-
+	min-width: 469px;
 }
 
 .about-us__quote:before {
@@ -37,7 +51,8 @@
 }
 
 .about-us__author-quote-image {
-	padding-left: 760px;
+	padding-left: 191px;
+	margin-right: 30px;
 }
 
 .about-us__about-author {
@@ -46,7 +61,7 @@
 	font-size: 20px;
 	line-height: 28px;
 	margin-top: -80px;
-	margin-left: 870px;
+	padding-left: 300px;
 	white-space: pre-line;
-	margin-bottom: 100px;
+
 }

@@ -1,7 +1,10 @@
-
 .social-item {
-	margin-right: 1100px;
+	padding-right: 1042px;
 	list-style-type: none;
 	display: flex;
 	justify-content: space-between;
+}
+
+.social-item__icon:not(:last-child) {
+	margin-right: 27px;
 }

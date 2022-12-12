@@ -11,13 +11,11 @@
 </head>
 
 <body>
-	<main>
+	<main class="wrapper">
 		<div class="top-wrapper">
 			<h1 class="top-wrapper__main-title">Game over</h1>
-			<span class="top-wrapper__under-main-title">Новый формат игр и отдыха</span>
-
+			<div class="top-wrapper__under-main-title">Новый формат игр и отдыха</div>
 			<img src="./images/pic1.png" alt="Мужчина в VR очках" class="top-wrapper__man-in-vr-img">
-
 		</div>
 
 		<section>
@@ -25,16 +23,16 @@
 				<h2 class="titles">Наши залы</h2>
 				<div class="halls-list">
 					<div class="halls-list__hall halls-list__hall_first-hall">
-						<p class="halls-list__name-hall">80`s vibes</p>
+						<span class="halls-list__name-hall">80`s vibes</span>
 					</div>
 					<div class="halls-list__hall halls-list__hall_second-hall">
-						<p class="halls-list__name-hall">Star wars</p>
+						<span class="halls-list__name-hall">Star wars</span>
 					</div>
 					<div class="halls-list__hall halls-list__hall_third-hall">
-						<p class="halls-list__name-hall">Wild west</p>
+						<span class="halls-list__name-hall">Wild west</span>
 					</div>
 					<div class="halls-list__hall halls-list__hall_fourth-hall">
-						<p class="halls-list__name-hall">Neon style</p>
+						<span class="halls-list__name-hall">Neon style</span>
 					</div>
 				</div>
 			</div>
@@ -121,23 +119,29 @@
 			<div id="about-us">
 				<h2 class="titles">О нас</h2>
 				<div class="about-us">
-					<div class="about-us__about-us-content">
-						<p>Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности
-							в центральной части города.</p>
-						<p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми
-							игровыми
-							разработками со всего мира.</p>
+					<div class="about-us__pic">
+						<img src="./images/pic6.jpg" title="Наши возможности">
 					</div>
-					<blockquote>
-						<div class="about-us__quote"> <strong>GAME OVER</strong> -
-							это место незабываемых впечатлений </div>
-						<img src="./images/author.svg" alt="Фото автора цитаты Аркадия Абакшина"
-							class="about-us__author-quote-image">
-						<p class="about-us__about-author">Аркадий Абакшин,
-							создатель игровой
-							территории GAME OVER
-						</p>
-					</blockquote>
+					<div class="about-us__about-us-content">
+						<div class="about-us__about-us-text">
+							<p>Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности
+								в центральной части города.</p>
+							<p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас
+								топовыми
+								игровыми
+								разработками со всего мира.</p>
+						</div>
+						<blockquote>
+							<div class="about-us__quote"> <strong>GAME OVER</strong> -
+								это место незабываемых впечатлений </div>
+							<img src="./images/author.svg" alt="Фото автора цитаты Аркадия Абакшина"
+								class="about-us__author-quote-image">
+							<p class="about-us__about-author">Аркадий Абакшин,
+								создатель игровой
+								территории GAME OVER
+							</p>
+						</blockquote>
+					</div>
 				</div>
 			</div>
 		</article>
@@ -188,7 +192,7 @@
 		</article>
 	</main>
 
-	<footer>
+	<footer class="footer-wrapper">
 		<div id="contacts">
 			<h3 class="titles">Контакты</h3>
 			<address class="address-item">
@@ -201,17 +205,17 @@
 				</p>
 			</address>
 			<ul class="social-item">
-				<li>
+				<li class="social-item__icon">
 					<a href="https://vk.com/" target="_blank"><img src="./images/vk.svg" alt="VK"></a>
 				</li>
-				<li>
+				<li class="social-item__icon">
 					<a href="https://xn--80affa3aj0al.xn--80asehdb/" target="_blank"><img src="./images/tg.svg"
 							alt="Telegram"></a>
 				</li>
-				<li>
+				<li class="social-item__icon">
 					<a href="https://www.pinterest.com" target="_blank"><img src="./images/pint.svg" alt="Pinterest"></a>
 				</li>
-				<li>
+				<li class="social-item__icon">
 					<a href="https://www.stumbleupon.com/" target="_blank"><img src="./images/stumbleupon.svg"
 							alt="StumbleUpon"></a>
 				</li>
