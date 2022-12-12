@@ -3,9 +3,9 @@
 }
 
 .halls-list__hall {
-	width: auto;
-	height: 710px;
-	background-size: cover;
+	min-width: 100%;
+	min-height: 710px;
+	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -32,15 +32,11 @@
 
 .halls-list__name-hall {
 	text-transform: uppercase;
-	text-align: center;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 70px;
 	line-height: 80px;
-	width: 260px;
-	height: 160px;
-	padding-top: 275px;
-	padding-right: 460px;
-	padding-bottom: 275px;
-	padding-left: 650px;
+	display: inline-block;
+	padding-top: 25%;
+	padding-left: 35%;
 }
