@@ -2,6 +2,46 @@
 	margin-bottom: 100px;
 }
 
+.faq__item {
+	min-width: 1180px;
+	min-height: 87px;
+	background-color: #fff;
+	color: #1C1A1A;
+	margin-bottom: 20px;
+}
+
+.faq__item:nth-child(2n) {
+	color: white;
+	background-color: #440F51;
+}
+
+.faq__text-item {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	min-width: 78px;
+	min-height: 28px;
+	margin-right: 214px;
+	padding: 30px 330px 29px 70px;
+	border: 3px solid yellow;
+}
+
+.faq__odd-item {
+	position: relative;
+	top: 20px;
+}
+
+.faq__even-item {
+	width: 46px;
+	height: 46px;
+	position: relative;
+	top: 20px;
+}
+
+
+
+
+/*
 .faq__faq-item {
 	background-color: #fff;
 	color: #1C1A1A;
@@ -12,21 +52,24 @@
 	list-style-type: none;
 }
 
+.faq__item {
+	min-width: 780px;
+	min-height: 28px;
+	margin-right: 214px;
+}
+
 .faq__faq-item:nth-child(2n) {
 	color: white;
 	background-color: #440F51;
 }
 
-.faq__faq-item_odd-item:after {
-	content: url("../images/open-purple.svg");
-	float: right;
-}
 
-.faq__faq-item_even-item:after {
-	content: "";
-	background-image: url("../images/open.svg");
-	display: block;
-	width: 46px;
-	height: 46px;
-	float: right;
+.faq__odd-item {
+
+	min-width: 36px;
+	min-height: 36px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
 }
+*/
