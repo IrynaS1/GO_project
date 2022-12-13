@@ -50,18 +50,21 @@
 	color: #6C0287;
 }
 
-.about-us__author-quote-image {
+.about-us__author {
 	padding-left: 191px;
+}
+
+.about-us__author-quote-image {
 	margin-right: 30px;
 }
 
 .about-us__about-author {
+	display: inline-block;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 28px;
 	margin-top: -80px;
-	padding-left: 300px;
 	white-space: pre-line;
 
 }
