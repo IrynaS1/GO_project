@@ -23,7 +23,22 @@
 	min-height: 28px;
 	margin-right: 214px;
 	padding: 30px 330px 29px 70px;
-	border: 3px solid yellow;
+}
+
+.faq__text-item_second {
+	padding: 30px 370px 29px 70px;
+}
+
+.faq__text-item_third {
+	padding: 30px 434px 29px 70px;
+}
+
+.faq__text-item_fourth {
+	padding: 30px 553px 29px 70px;
+}
+
+.faq__text-item_fifth {
+	padding: 30px 431px 29px 70px;
 }
 
 .faq__odd-item {
@@ -37,6 +52,7 @@
 	position: relative;
 	top: 20px;
 }
+
 
 
 
