@@ -8,6 +8,14 @@
 	background-color: #fff;
 	color: #1C1A1A;
 	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 70px;
+}
+
+.faq__item:last-child {
+	margin-bottom: 0;
 }
 
 .faq__item:nth-child(2n) {
@@ -19,73 +27,9 @@
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 28px;
-	min-width: 78px;
-	min-height: 28px;
-	margin-right: 214px;
-	padding: 30px 330px 29px 70px;
-}
-
-.faq__text-item_second {
-	padding: 30px 370px 29px 70px;
-}
-
-.faq__text-item_third {
-	padding: 30px 434px 29px 70px;
-}
-
-.faq__text-item_fourth {
-	padding: 30px 553px 29px 70px;
-}
-
-.faq__text-item_fifth {
-	padding: 30px 431px 29px 70px;
-}
-
-.faq__odd-item {
-	position: relative;
-	top: 20px;
 }
 
 .faq__even-item {
 	width: 46px;
 	height: 46px;
-	position: relative;
-	top: 20px;
 }
-
-
-
-
-
-/*
-.faq__faq-item {
-	background-color: #fff;
-	color: #1C1A1A;
-	font-weight: 700;
-	font-size: 24px;
-	padding: 30px 70px;
-	margin-bottom: 20px;
-	list-style-type: none;
-}
-
-.faq__item {
-	min-width: 780px;
-	min-height: 28px;
-	margin-right: 214px;
-}
-
-.faq__faq-item:nth-child(2n) {
-	color: white;
-	background-color: #440F51;
-}
-
-
-.faq__odd-item {
-
-	min-width: 36px;
-	min-height: 36px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: right;
-}
-*/
