@@ -1,14 +1,34 @@
-
 .reviews {
 	margin-bottom: 100px;
 }
 
 .review-block {
-	margin-bottom: 50px;
-	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 11px;
+}
+
+.review-block__text {
+	min-width: 680px;
+	min-height: 88px;
 }
 
 .review-block__image {
 	margin-right: 20px;
-	margin-bottom: 11px;
+
+}
+
+.review-author {
+	margin-bottom: 50px;
+	padding-right: 970px;
+	text-align: center;
+}
+
+.review-block__text,
+.review-author {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
 }
