@@ -1,33 +1,31 @@
 .halls-list {
-	padding-bottom: 100px;
+	margin-bottom: 100px;
 }
 
 .halls-list__hall {
-	min-width: 100%;
-	min-height: 710px;
+	width: 580px;
+	height: 349px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.halls-list:first-child {
+	padding-right: 20px;
+	margin-bottom: 20px;
+}
+
+.halls-list:second-child {
+	margin-bottom: 20px;
+}
+
+.halls-list:third-child {
+	margin-right: 20px;
+}
+
+.halls-list__image {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-}
-
-.halls-list__hall:not(:last-child) {
-	margin-bottom: 60px;
-}
-
-.halls-list__hall_first-hall {
-	background-image: url("../images/pic2.jpg");
-}
-
-.halls-list__hall_second-hall {
-	background-image: url("../images/pic3.jpg");
-}
-
-.halls-list__hall_third-hall {
-	background-image: url("../images/pic4.jpg");
-}
-
-.halls-list__hall_fourth-hall {
-	background-image: url("../images/pic5.jpg");
 }
 
 .halls-list__name-hall {
@@ -36,7 +34,7 @@
 	font-weight: 700;
 	font-size: 70px;
 	line-height: 80px;
-	display: inline-block;
-	padding-top: 25%;
-	padding-left: 35%;
+	position: relative;
+	bottom: 220px;
+	left: 100px;
 }
