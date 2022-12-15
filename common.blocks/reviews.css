@@ -2,31 +2,25 @@
 	margin-bottom: 100px;
 }
 
-.review-block {
+.user-review {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 11px;
 }
 
-.review-block__text {
-	min-width: 680px;
-	min-height: 88px;
-}
-
-.review-block__image {
-	margin-right: 20px;
-
-}
-
-.review-author {
+.user-review:not(:last-child) {
 	margin-bottom: 50px;
-	padding-right: 970px;
+}
+
+.user-review__author {
+	margin-right: 16px;
+}
+
+.user-review__name {
 	text-align: center;
 }
 
-.review-block__text,
-.review-author {
+.user-review__text,
+.user-review__name {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
