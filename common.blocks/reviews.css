@@ -11,6 +11,10 @@
 	margin-bottom: 50px;
 }
 
+.user-review__photo {
+	margin-bottom: 11px;
+}
+
 .user-review__author {
 	margin-right: 16px;
 }
