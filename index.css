@@ -1,8 +1,10 @@
 @import url("style.css");
 
+@import url("./common.blocks/header-wrapper.css");
+
 @import url("./common.blocks/footer-wrapper.css");
 
-@import url("./common.blocks/wrapper.css");
+@import url("./common.blocks/main-wrapper.css");
 
 @import url("./common.blocks/top-wrapper.css");
 
