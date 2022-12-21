@@ -1,5 +1,12 @@
 .footer {
 	margin-bottom: 156px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-map {
+	min-width: 680px;
+	min-height: 274px;
 }
 
 .address-item {
@@ -7,7 +14,7 @@
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 28px;
-	margin-bottom: 39px;
+	margin-bottom: 35px;
 }
 
 .address-item__location {
@@ -47,12 +54,13 @@
 }
 
 .social-item {
-	padding-right: 1042px;
 	list-style-type: none;
 	display: flex;
 	justify-content: space-between;
 }
 
 .social-item__icon:not(:last-child) {
+	width: 48px;
+	height: 48px;
 	margin-right: 27px;
 }
