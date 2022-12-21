@@ -1,3 +1,7 @@
+.footer {
+	margin-bottom: 156px;
+}
+
 .address-item {
 	font-style: normal;
 	font-weight: 700;
@@ -40,4 +44,15 @@
 	padding-left: 80px;
 	margin-left: 20px;
 	white-space: pre-line;
+}
+
+.social-item {
+	padding-right: 1042px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social-item__icon:not(:last-child) {
+	margin-right: 27px;
 }

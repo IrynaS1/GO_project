@@ -1,40 +1,29 @@
 .halls-list {
 	margin-bottom: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .halls-list__hall {
 	width: 580px;
 	height: 349px;
-	display: inline-block;
-	vertical-align: top;
 }
 
-.halls-list:first-child {
-	padding-right: 20px;
-	margin-bottom: 20px;
-}
-
-.halls-list:second-child {
-	margin-bottom: 20px;
-}
-
-.halls-list:third-child {
-	margin-right: 20px;
-}
-
-.halls-list__image {
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.halls-list__name-hall {
+.halls-list__hall-name {
 	text-transform: uppercase;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 70px;
 	line-height: 80px;
+	width: 252px;
+	display: inline-block;
 	position: relative;
-	bottom: 220px;
-	left: 100px;
+	bottom: 240px;
+	left: 164px;
+	text-align: center;
+}
+
+.halls-list__hall_mb {
+	margin-bottom: 20px;
 }
