@@ -1,0 +1,32 @@
+.info {
+	margin-bottom: 100px;
+}
+
+.info-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.info-list__item {
+	width: 380px;
+	height: 228px;
+}
+
+.info-list__item_mb {
+	margin-bottom: 20px;
+}
+
+.info-list__item-text {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+	color: #FFFFFF;
+	display: inline-block;
+	position: relative;
+	width: 320px;
+	bottom: 80px;
+	padding-left: 40px;
+}

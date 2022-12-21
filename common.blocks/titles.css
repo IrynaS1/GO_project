@@ -1,9 +1,11 @@
 .titles {
+	width: 100%;
+	height: auto;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 50px;
 	text-align: center;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 	text-transform: uppercase;
 }
