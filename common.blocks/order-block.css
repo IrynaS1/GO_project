@@ -1,0 +1,170 @@
+.order-block {
+	padding: 80px 130px;
+	margin-bottom: 50px;
+	background-color: #440F51;
+}
+
+.order-block__title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.order-block__hall {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+.order-block__hall-item {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.order-block__services {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.order-block__consoles-title,
+.order-block__table-games-title,
+.order-block__extra-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 24px;
+}
+
+.order-block__consoles-text,
+.order-block__table-games-text,
+.order-block__extra-text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 25px;
+}
+
+.order-block__consoles-text:not(:last-child) {
+	margin-bottom: 22px;
+}
+
+.order-block__table-games-text:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.order-block__extra-text:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+.order-block__order {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 40px;
+}
+
+.order-block__details {
+	width: 280px;
+	height: 74px;
+}
+
+.order-block__details_row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-right: 50px;
+}
+
+.order-block__details-date {
+	width: 134px;
+	height: 52px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #211E1E;
+	padding: 12px 22px 12px 20px;
+}
+
+.order-block__select {
+	height: 74px;
+	padding-top: 20px;
+	margin-right: 50px;
+}
+
+.order-block__select-count {
+	width: 280px;
+	height: 52px;
+	padding: 12px 22px 12px 20px;
+}
+
+.order-block__count {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #211E1E;
+
+}
+
+.order-block__details-date:not(:last-child) {
+	margin-right: 32px;
+}
+
+.order-block__details-text {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 6px;
+}
+
+.order-block__details-select {
+	padding-top: 32px;
+}
+
+.order-block__details-input {
+	width: 280px;
+	height: 52px;
+}
+
+.order-block__details_m {
+	margin-right: 50px;
+	margin-bottom: 14px;
+}
+
+.order-block__details_mb {
+	margin-bottom: 14px;
+}
+
+.order-block__details_mr {
+	margin-right: 50px;
+}
+
+.order-block__button {
+
+	padding-left: 880px;
+}
+
+.order-block__form-btn {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #6C0287;
+	padding: 16px 40px;
+	border-radius: 10px;
+}

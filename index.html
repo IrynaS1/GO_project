@@ -43,276 +43,316 @@
 		</div>
 	</div>
 
-	<main class="main-wrapper">
-		<div class="top-wrapper">
-			<h1 class="top-wrapper__main-title">Game over</h1>
+	<main>
+		<div class="main-wrapper">
+			<div class="top-wrapper">
+				<h1 class="top-wrapper__main-title">Game over</h1>
 
+			</div>
+
+			<section>
+				<div class="info">
+					<h2 class="titles">У нас есть все для классного
+						отдыха с друзьями!</h2>
+
+					<ul class="info-list">
+						<li class="info-list__item info-list__item_mb">
+							<div>
+								<img src="./images/vr-glasses.png" alt="VR очки">
+								<span class="info-list__item-text">VR очки</span>
+							</div>
+						</li>
+						<li class="info-list__item info-list__item_mb">
+							<div>
+								<img src="./images/audio.png" alt="Аудио-система 5.1 с отличным звуком">
+								<span class="info-list__item-text">Аудио-система 5.1 с отличным звуком</span>
+							</div>
+						</li>
+						<li class="info-list__item info-list__item_mb">
+							<img src="./images/karaoke.png" alt="Караоке (4 микрофона)">
+							<span class="info-list__item-text">Караоке (4 микрофона)</span>
+						</li>
+						<li class="info-list__item">
+							<img src="./images/table_games.png" alt="Настольные игры">
+							<span class="info-list__item-text">Настольные игры</span>
+						</li>
+						<li class="info-list__item">
+							<img src="./images/cinema.png" alt="Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko">
+							<span class="info-list__item-text">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</span>
+						</li>
+						<li class="info-list__item">
+							<img src="./images/play_station.png" alt="РlаyStаtiоn 5">
+							<span class="info-list__item-text">РlаyStаtiоn 5</span>
+						</li>
+					</ul>
+
+				</div>
+			</section>
+
+			<section>
+				<div id="halls">
+					<h2 class="titles">Наши залы</h2>
+					<div class="halls-list">
+						<div class="halls-list__hall halls-list__hall_mb">
+							<img src="./images/pic2.jpg" alt="Зал 80`s vibes">
+							<span class="halls-list__hall-name">80`s vibes</span>
+						</div>
+						<div class="halls-list__hall halls-list__hall_mb">
+							<img src="./images/pic3.jpg" alt="Зал Star wars">
+							<span class="halls-list__hall-name">Star wars</span>
+						</div>
+						<div class="halls-list__hall">
+							<img src="./images/pic4.jpg" alt="Зал Wild west">
+							<span class=" halls-list__hall-name">Wild west</span>
+						</div>
+						<div class="halls-list__hall">
+							<img src="./images/pic5.jpg" alt="Зал Neon style">
+							<span class="halls-list__hall-name">Neon style</span>
+						</div>
+					</div>
+				</div>
 		</div>
-
+		</section>
+		<!--Секция "Забронировать"-->
 		<section>
-			<div class="info">
-				<h2 class="titles">У нас есть все для классного
-					отдыха с друзьями!</h2>
+			<div class="order-block">
+				<h2 class="titles">Забронировать</h2>
+				<form class="form-order" id="order-form" action="https://jsonplaceholder.typicode.com/posts" method="post"
+					target="_blanc">
+					<h3 class="order-block__title">Выбери зал</h3>
+					<ul class="order-block__hall">
+						<li class="order-block__hall-item">
+							<label><input type="button" name="80`s vibes hall" value="80`S VIBES HALL"></label>
+						</li>
+						<li class="order-block__hall-item">
+							<label><input type="button" name="Star wars hall" value="STAR WARS"></label>
+						</li>
+						<li class="order-block__hall-item">
+							<label><input type="button" name="Wild west hall" value="WILD WEST"></label>
+						</li>
+						<li class="order-block__hall-item">
+							<label><input type="button" name="Neon style hall" value="NEON STYLE"></label>
+						</li>
+					</ul>
 
-				<ul class="info-list">
-					<li class="info-list__item info-list__item_mb">
-						<div>
-							<img src="./images/vr-glasses.png" alt="VR очки">
-							<span class="info-list__item-text">VR очки</span>
+					<h3 class="order-block__title">Собери набор развлечений</h3>
+
+					<div class="order-block__services">
+
+						<div class="order-block__consoles">
+							<h3 class="order-block__consoles-title">Приставка:</h3>
+							<p class="order-block__consoles-text">
+								<label><input type="radio" name="PlayStation"> PlayStation</label>
+							</p>
+							<p class="order-block__consoles-text">
+								<label><input type="radio" name="Sega Mega Drive"> Sega Mega Drive</label>
+							</p>
+							<p class="order-block__consoles-text">
+								<label><input type="radio" name="X-box One S"> X-box One S</label>
+							</p>
+							<p class="order-block__consoles-text">
+								<label><input type="radio" name="Dendy"> Dendy</label>
+							</p>
 						</div>
-					</li>
-					<li class="info-list__item info-list__item_mb">
-						<div>
-							<img src="./images/audio.png" alt="Аудио-система 5.1 с отличным звуком">
-							<span class="info-list__item-text">Аудио-система 5.1 с отличным звуком</span>
+
+						<div class="order-block__table-games">
+							<h3 class="order-block__table-games-title"> Настольные игры</h3>
+							<p class="order-block__table-games-text">
+								<label><input type="checkbox" name="Jenga"> Jenga</label>
+							</p>
+							<p class="order-block__table-games-text">
+								<label><input type="checkbox" name="Monopoly"> Monopoly</label>
+							</p>
+							<p class="order-block__table-games-text">
+								<label><input type="checkbox" name="Manchkin"> Манчкин</label>
+							</p>
+							<p class="order-block__table-games-text">
+								<label><input type="checkbox" name="Alias"> Alias</label>
+							</p>
 						</div>
+
+						<div class="order-block__extra">
+							<h3 class="order-block__extra-title">Дополнительно</h3>
+							<p class="order-block__extra-text">
+								<label><input type="checkbox" name="karaoke" id="karaoke"> Караоке</label>
+							</p>
+							<p class="order-block__extra-text">
+								<label><input type="checkbox" name="VR"> VR</label>
+							</p>
+						</div>
+
+					</div>
+					<h3 class="order-block__title">Выбери дату и время</h3>
+					<div class="order-block__order">
+						<div class="order-block__details order-block__details_row">
+							<select name="date" class="order-block__details-date">
+								<option>Дата</option>
+							</select>
+							<select name="time" class="order-block__details-date">
+								<option>Время</option>
+							</select>
+						</div>
+						<div class="order-block__details order-block__details_m">
+							<label for="client-name" class="order-block__details-text">Имя</label>
+							<p>
+								<input class="order-block__details-input" type="text" name="name" id="client-name" required>
+							</p>
+						</div>
+						<div class="order-block__details order-block__details_mb">
+							<label for="phone" class="order-block__details-text">Телефон</label>
+							<input class="order-block__details-input" type="tel" name="phone" id="phone" required>
+						</div>
+						<div class="order-block__select">
+							<select class="order-block__select-count" name="count">
+								<option class="order-block__count">Сколько человек</option>
+							</select>
+						</div>
+						<div class="order-block__details order-block__details_mr">
+							<label for="surname-client" class="order-block__details-text">Фамилия</label>
+							<p>
+								<input class="order-block__details-input" type="text" name="surname" id="surname-client"
+									required>
+							</p>
+						</div>
+						<div class="order-block__details">
+							<label for="email" class="order-block__details-text">E-mail</label>
+							<input class="order-block__details-input" type="email" name="email" id="email" required>
+						</div>
+					</div>
+					<div class="order-block__button">
+						<button class="order-block__form-btn" type="submit">Забронировать</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<div class="main-wrapper">
+			<article>
+				<div id="about-us">
+					<h2 class="titles">О нас</h2>
+					<div class="about-us">
+						<div class="about-us__pic">
+							<img src="./images/pic6.jpg" title="Наши возможности">
+						</div>
+						<div class="about-us__about-us-content">
+							<div class="about-us__about-us-text">
+								<p>Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности
+									в центральной части города.</p>
+								<p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас
+									топовыми
+									игровыми
+									разработками со всего мира.</p>
+							</div>
+							<blockquote>
+								<div class="about-us__quote"> <strong>GAME OVER</strong> -
+									это место незабываемых впечатлений </div>
+								<div class="about-us__author">
+									<img src="./images/author.svg" alt="Фото автора цитаты Аркадия Абакшина"
+										class="about-us__author-quote-image">
+									<p class="about-us__about-author">Аркадий Абакшин,
+										создатель игровой
+										территории GAME OVER
+									</p>
+								</div>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</article>
+
+			<article>
+				<h2 class="titles">Отзывы посетителей</h2>
+				<div class="reviews">
+
+					<!--start first review-->
+					<div class="user-review">
+						<div class="user-review__author">
+							<div class="user-review__photo">
+								<img src="./images/review1.png" alt="Отзыв посетителя">
+							</div>
+							<div class="user-review__name">
+								<p>Макс Самойлов</p>
+							</div>
+						</div>
+						<div class="user-review__text">
+							<p class="review-block__text">Отмечали здесь день рождения с компанией друзей, все было очень
+								круто!
+								<a href="#VR-glasses">VR
+									очки</a>
+								это просто
+								бомба, никогда я еще не был в таком полном игровом погружении. Сервис на высоте!
+							</p>
+						</div>
+					</div>
+					<!--end first review-->
+
+					<!--start second review-->
+					<div class="user-review">
+						<div class="user-review__author">
+							<div class="user-review__photo">
+								<img src="./images/review2.png" alt="Отзыв посетителя">
+							</div>
+							<div class="user-review__name">
+								<p>Оксана Григорьева</p>
+							</div>
+						</div>
+						<div class="user-review__text">
+							<p>Были в комнате <a href="#wild-west-hall">Дикий запад</a>, пели в <a href="#karaoke">караоке</a>
+								под Шакиру, отличный получился корпоратив! У нас в городе больше
+								нет
+								подобных заведений</p>
+						</div>
+					</div>
+					<!--end second review-->
+
+					<!--start third review-->
+					<div class="user-review">
+						<div class="user-review__author">
+							<div class="user-review__photo">
+								<img src="./images/review3.png" alt="Отзыв посетителя">
+							</div>
+							<div class="user-review__name">
+								<p>Никита Ященко</p>
+							</div>
+						</div>
+						<div class="user-review__text">
+							<p>Немного подвисла игра в <a href="#VR-glasses">VR очках</a>, а так все норм.
+								Крутое
+								оформление
+								комнаты в стиле <a href="#star-wars-hall">звездных войн</a>, попал в атмосферу космоса</p>
+						</div>
+					</div>
+					<!--end third review-->
+
+				</div>
+			</article>
+
+			<article>
+				<h2 class="titles">Частые вопросы</h2>
+				<ul class="faq">
+					<li class="faq__item">
+						<span class="faq__text-item">Можно ли забронировать комнату онлайн?</span>
+						<img src="./images/open-purple.svg" alt="Кнопка" class="faq__odd-item">
 					</li>
-					<li class="info-list__item info-list__item_mb">
-						<img src="./images/karaoke.png" alt="Караоке (4 микрофона)">
-						<span class="info-list__item-text">Караоке (4 микрофона)</span>
+					<li class="faq__item">
+						<span class="faq__text-item faq__text-item_second">Могут ли мне вернуть деньги за бронь?</span>
+						<img src="./images/open.svg" alt="Кнопка" class="faq__even-item">
 					</li>
-					<li class="info-list__item">
-						<img src="./images/table_games.png" alt="Настольные игры">
-						<span class="info-list__item-text">Настольные игры</span>
+					<li class="faq__item">
+						<span class="faq__text-item faq__text-item_third">Какая комната самая популярная?</span>
+						<img src="./images/open-purple.svg" alt="Кнопка" class="faq__odd-item">
 					</li>
-					<li class="info-list__item">
-						<img src="./images/cinema.png" alt="Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko">
-						<span class="info-list__item-text">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</span>
+					<li class="faq__item">
+						<span class="faq__text-item faq__text-item_fourth">Как получить VIP-карту?</span>
+						<img src="./images/open.svg" alt="Кнопка" class="faq__even-item">
 					</li>
-					<li class="info-list__item">
-						<img src="./images/play_station.png" alt="РlаyStаtiоn 5">
-						<span class="info-list__item-text">РlаyStаtiоn 5</span>
+					<li class="faq__item">
+						<span class="faq__text-item faq__text-item_fifth">Какая комната самая популярная?</span>
+						<img src="./images/open-purple.svg" alt="Кнопка" class="faq__odd-item">
 					</li>
 				</ul>
-
-			</div>
-		</section>
-
-		<section>
-			<div id="halls">
-				<h2 class="titles">Наши залы</h2>
-<div class="halls-list">
-					<div class="halls-list__hall halls-list__hall_mb">
-						<img src="./images/pic2.jpg" alt="Зал 80`s vibes">
-						<span class="halls-list__hall-name">80`s vibes</span>
-					</div>
-					<div class="halls-list__hall halls-list__hall_mb">
-						<img src="./images/pic3.jpg" alt="Зал Star wars">
-						<span class="halls-list__hall-name">Star wars</span>
-					</div>
-					<div class="halls-list__hall">
-						<img src="./images/pic4.jpg" alt="Зал Wild west">
-						<span class=" halls-list__hall-name">Wild west</span>
-					</div>
-					<div class="halls-list__hall">
-						<img src="./images/pic5.jpg" alt="Зал Neon style">
-						<span class="halls-list__hall-name">Neon style</span>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section>
-			<h2 class="titles">Забронировать</h2>
-
-			<form class="form-order" id="order-form" action="https://jsonplaceholder.typicode.com/posts" method="post"
-				target="_blanc">
-
-				<fieldset>
-					<label><input type="radio" name="80`s vibes hall" value="80`S VIBES HALL">80`s vibes</label>
-					<label><input type="radio" name="Star wars hall" value="STAR WARS">star wars</label>
-					<label><input type="radio" name="Wild west hall" value="WILD WEST">wild west</label>
-					<label><input type="radio" name="Neon style hall" value="NEON STYLE">neon style</label>
-				</fieldset>
-
-				<fieldset>
-
-					<legend>Собери набор развлечений</legend>
-
-					<fieldset>
-						<legend>Приставка</legend>
-
-						<label><input type="radio" name="PlayStation">PlayStation</label>
-						<label><input type="radio" name="Sega Mega Drive">Sega Mega Drive</label>
-						<label><input type="radio" name="X-box One S">X-box One S</label>
-						<label><input type="radio" name="Dendy">Dendy</label>
-
-					</fieldset>
-
-					<fieldset>
-						<legend>Настольные игры</legend>
-						<label><input type="checkbox" name="Jenga">Jenga</label>
-						<label><input type="checkbox" name="Monopoly">Monopoly</label>
-						<label><input type="checkbox" name="Manchkin">Манчкин</label>
-						<label><input type="checkbox" name="Alias">Alias</label>
-					</fieldset>
-
-					<fieldset>
-						<legend>Дополнительно</legend>
-						<label><input type="checkbox" name="karaoke" id="karaoke">Караоке</label>
-						<label><input type="checkbox" name="VR">VR</label>
-					</fieldset>
-
-				</fieldset>
-
-				<fieldset>
-					<legend>Выбери дату и время</legend>
-
-					<label>Дата*
-						<input type="date" name="date" lang="en" required>
-					</label>
-
-					<label>Время*
-						<input type="time" name="time" required>
-					</label>
-
-					<label>Количество человек*
-						<input type="number" name="count" required>
-					</label>
-
-					<label for="client-name">Имя*</label>
-					<input type="text" name="name" id="client-name" required>
-
-					<label for="surname-client">Фамилия*</label>
-					<input type="text" name="surname" id="surname-client" required>
-
-					<label for="phone">Номер телефона*</label>
-					<input type="tel" name="phone" id="phone" required>
-
-					<input type="checkbox" name="age" required>Я старше 18 лет</label>
-				</fieldset>
-
-				<button type="submit">Забронировать</button>
-
-				<label><input type="checkbox" name="agreement" required>Согласен на обработку данных</label>
-
-			</form>
-		</section>
-
-		<article>
-			<div id="about-us">
-				<h2 class="titles">О нас</h2>
-				<div class="about-us">
-					<div class="about-us__pic">
-						<img src="./images/pic6.jpg" title="Наши возможности">
-					</div>
-					<div class="about-us__about-us-content">
-						<div class="about-us__about-us-text">
-							<p>Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности
-								в центральной части города.</p>
-							<p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас
-								топовыми
-								игровыми
-								разработками со всего мира.</p>
-						</div>
-						<blockquote>
-							<div class="about-us__quote"> <strong>GAME OVER</strong> -
-								это место незабываемых впечатлений </div>
-							<div class="about-us__author">
-								<img src="./images/author.svg" alt="Фото автора цитаты Аркадия Абакшина"
-									class="about-us__author-quote-image">
-								<p class="about-us__about-author">Аркадий Абакшин,
-									создатель игровой
-									территории GAME OVER
-								</p>
-							</div>
-						</blockquote>
-					</div>
-				</div>
-			</div>
-		</article>
-
-		<article>
-			<h2 class="titles">Отзывы посетителей</h2>
-			<div class="reviews">
-
-				<!--start first review-->
-				<div class="user-review">
-					<div class="user-review__author">
-						<div class="user-review__photo">
-							<img src="./images/review1.png" alt="Отзыв посетителя">
-						</div>
-						<div class="user-review__name">
-							<p>Макс Самойлов</p>
-						</div>
-					</div>
-					<div class="user-review__text">
-						<p class="review-block__text">Отмечали здесь день рождения с компанией друзей, все было очень круто!
-							<a href="#VR-glasses">VR
-								очки</a>
-							это просто
-							бомба, никогда я еще не был в таком полном игровом погружении. Сервис на высоте!
-						</p>
-					</div>
-				</div>
-				<!--end first review-->
-
-				<!--start second review-->
-				<div class="user-review">
-					<div class="user-review__author">
-						<div class="user-review__photo">
-							<img src="./images/review2.png" alt="Отзыв посетителя">
-						</div>
-						<div class="user-review__name">
-							<p>Оксана Григорьева</p>
-						</div>
-					</div>
-					<div class="user-review__text">
-						<p>Были в комнате <a href="#wild-west-hall">Дикий запад</a>, пели в <a href="#karaoke">караоке</a>
-							под Шакиру, отличный получился корпоратив! У нас в городе больше
-							нет
-							подобных заведений</p>
-					</div>
-				</div>
-				<!--end second review-->
-
-				<!--start third review-->
-				<div class="user-review">
-					<div class="user-review__author">
-						<div class="user-review__photo">
-							<img src="./images/review3.png" alt="Отзыв посетителя">
-						</div>
-						<div class="user-review__name">
-							<p>Никита Ященко</p>
-						</div>
-					</div>
-					<div class="user-review__text">
-						<p>Немного подвисла игра в <a href="#VR-glasses">VR очках</a>, а так все норм.
-							Крутое
-							оформление
-							комнаты в стиле <a href="#star-wars-hall">звездных войн</a>, попал в атмосферу космоса</p>
-					</div>
-				</div>
-				<!--end third review-->
-
-			</div>
-		</article>
-
-		<article>
-			<h2 class="titles">Частые вопросы</h2>
-			<ul class="faq">
-				<li class="faq__item">
-					<span class="faq__text-item">Можно ли забронировать комнату онлайн?</span>
-					<img src="./images/open-purple.svg" alt="Кнопка" class="faq__odd-item">
-				</li>
-				<li class="faq__item">
-					<span class="faq__text-item faq__text-item_second">Могут ли мне вернуть деньги за бронь?</span>
-					<img src="./images/open.svg" alt="Кнопка" class="faq__even-item">
-				</li>
-				<li class="faq__item">
-					<span class="faq__text-item faq__text-item_third">Какая комната самая популярная?</span>
-					<img src="./images/open-purple.svg" alt="Кнопка" class="faq__odd-item">
-				</li>
-				<li class="faq__item">
-					<span class="faq__text-item faq__text-item_fourth">Как получить VIP-карту?</span>
-					<img src="./images/open.svg" alt="Кнопка" class="faq__even-item">
-				</li>
-				<li class="faq__item">
-					<span class="faq__text-item faq__text-item_fifth">Какая комната самая популярная?</span>
-					<img src="./images/open-purple.svg" alt="Кнопка" class="faq__odd-item">
-				</li>
-			</ul>
-		</article>
+			</article>
+		</div>
 	</main>
 
 	<footer class="footer-wrapper">
