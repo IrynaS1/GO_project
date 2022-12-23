@@ -21,7 +21,7 @@
 }
 
 .top-block {
-	min-width: 400px;
+	min-width: 500px;
 }
 
 .top__image {
@@ -98,6 +98,7 @@
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 30px;
+	text-transform: uppercase;
 	color: #FFFFFF;
 }
 
