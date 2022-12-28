@@ -4,13 +4,22 @@
 
 @import url("./styles/blocks/header-wrapper.css");
 
+@import url("./styles/blocks/top-block.css");
+
+@import url("./styles/blocks/main-titles.css");
+
+
+
+
+
+
 @import url("./common.blocks/footer-wrapper.css");
 
 
 
 @import url("./common.blocks/info.css");
 
-@import url("./common.blocks/top-wrapper.css");
+
 
 @import url("./common.blocks/titles.css");
 
