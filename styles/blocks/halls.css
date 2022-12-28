@@ -1,5 +1,8 @@
-.halls-list {
+.halls {
 	margin-bottom: 100px;
+}
+
+.halls-list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
