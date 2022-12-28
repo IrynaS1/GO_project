@@ -10,6 +10,9 @@
 
 @import url("./styles/blocks/info.css");
 
+@import url("./styles/blocks/halls.css");
+
+@import url("./styles/blocks/titles.css");
 
 
 
@@ -20,10 +23,6 @@
 
 
 
-
-@import url("./common.blocks/titles.css");
-
-@import url("./common.blocks/halls.css");
 
 @import url("./common.blocks/order-block.css");
 
