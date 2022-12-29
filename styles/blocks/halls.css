@@ -9,8 +9,8 @@
 }
 
 .halls-list__hall {
-	width: 580px;
-	height: 349px;
+	max-width: 580px;
+	max-height: 349px;
 }
 
 .halls-list__hall-name {
