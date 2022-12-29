@@ -6,11 +6,13 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+
 }
 
 .halls-list__hall {
 	max-width: 580px;
 	max-height: 349px;
+	position: relative;
 }
 
 .halls-list__hall-name {
@@ -19,11 +21,11 @@
 	font-weight: 700;
 	font-size: 70px;
 	line-height: 80px;
-	width: 252px;
+	max-width: 252px;
 	display: inline-block;
-	position: relative;
-	bottom: 240px;
-	left: 164px;
+	position: absolute;
+	right: 164px;
+	bottom: 95px;
 	text-align: center;
 }
 
