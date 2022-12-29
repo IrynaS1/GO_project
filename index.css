@@ -14,6 +14,11 @@
 
 @import url("./styles/blocks/titles.css");
 
+@import url("./styles/blocks/order-block.css");
+
+
+
+
 
 
 @import url("./common.blocks/footer-wrapper.css");
@@ -24,7 +29,7 @@
 
 
 
-@import url("./common.blocks/order-block.css");
+
 
 @import url("./common.blocks/about-us.css");
 
