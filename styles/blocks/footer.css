@@ -59,37 +59,59 @@
 }
 
 .social-item {
-	max-width: 280px;
+	max-width: 285px;
+	max-height: 50px;
 	list-style-type: none;
 	display: flex;
 	justify-content: space-between;
 }
 
-.social-item__icon {
-	width: 48px;
-	height: 48px;
-}
-
-.social-item__icon_vk {
+.social-item__icon-img_vk {
+	display: inline-block;
+	min-width: 48px;
+	min-height: 48px;
+	background-image: url("../../images/vk.svg");
+	background-repeat: no-repeat;
 	margin-right: 27px;
 }
 
-.social-item__icon_tg {
+.social-item__icon-img_tg {
+	display: inline-block;
+	min-width: 48px;
+	min-height: 48px;
+	background-image: url("../../images/tg.svg");
+	background-repeat: no-repeat;
 	margin-right: 28px;
 }
 
-.social-item__icon_pint {
+.social-item__icon-img_pint {
+	display: inline-block;
+	min-width: 50px;
+	min-height: 50px;
+	background-image: url("../../images/pint.svg");
+	background-repeat: no-repeat;
 	margin-right: 26px;
 }
 
-.social-item__icon:hover {
-	background: #EADEED;
+.social-item__icon-img_stu {
+	display: inline-block;
+	min-width: 50px;
+	min-height: 50px;
+	background-image: url("../../images/stumbleupon.svg");
+	background-repeat: no-repeat;
 }
 
-.social-item__icon:focus {
-	background: #EADEED;
+.social-item__icon-img:hover {
+	border-radius: 50%;
+	background-color: #EADEED;
 }
 
-.social-item__icon:active {
-	background: #CD06FF;
+.social-item__icon-img:focus {
+	border-radius: 50%;
+	background-color: #EADEED;
+}
+
+.social-item__icon-img:active {
+	border-radius: 50%;
+	background-color: #CD06FF;
 }
