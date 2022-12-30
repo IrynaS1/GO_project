@@ -4,6 +4,11 @@
 	justify-content: space-between;
 }
 
+.footer-address {
+	min-width: 380px;
+	margin-right: 60px;
+}
+
 .footer-map {
 	min-width: 680px;
 	min-height: 274px;
@@ -18,7 +23,7 @@
 }
 
 .address-item__location {
-	background-image: url("../images/location.svg");
+	background-image: url("../../images/location.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: left;
@@ -30,7 +35,7 @@
 }
 
 .address-item__phone {
-	background-image: url("../images/bx_bxs-phone-call.svg");
+	background-image: url("../../images/bx_bxs-phone-call.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: left;
@@ -43,7 +48,7 @@
 }
 
 .address-item__email {
-	background-image: url("../images/envelope.svg");
+	background-image: url("../../images/envelope.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: left;
@@ -54,13 +59,25 @@
 }
 
 .social-item {
+	max-width: 280px;
 	list-style-type: none;
 	display: flex;
 	justify-content: space-between;
 }
 
-.social-item__icon:not(:last-child) {
+.social-item__icon {
 	width: 48px;
 	height: 48px;
+}
+
+.social-item__icon_vk {
 	margin-right: 27px;
+}
+
+.social-item__icon_tg {
+	margin-right: 28px;
+}
+
+.social-item__icon_pint {
+	margin-right: 26px;
 }
