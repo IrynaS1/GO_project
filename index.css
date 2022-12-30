@@ -18,7 +18,7 @@
 
 @import url("./styles/blocks/about-us.css");
 
-
+@import url("./styles/blocks/reviews.css");
 
 
 @import url("./common.blocks/footer-wrapper.css");
@@ -35,7 +35,7 @@
 
 @import url("./common.blocks/faq.css");
 
-@import url("./common.blocks/reviews.css");
+
 
 @import url("./common.blocks/footer.css");
 
