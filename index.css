@@ -22,22 +22,10 @@
 
 @import url("./styles/blocks/faq.css");
 
+@import url("./styles/blocks/footer-color.css");
+
 @import url("./styles/blocks/footer-wrapper.css");
 
+@import url("./styles/blocks/footer.css");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@import url("./common.blocks/footer.css");
-
-@import url("./common.blocks/copyright.css");
+@import url("./styles/blocks/copyright.css");
