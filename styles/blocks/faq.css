@@ -34,7 +34,6 @@
 	min-height: 46px;
 	border: 2px solid #440F51;
 	border-radius: 50%;
-	content: "";
 	background-image: url("../../images/plus_purple.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -43,7 +42,6 @@
 .faq__item-btn_color {
 	border: 2px solid #FFFFFF;
 	background-color: rgba(0, 125, 215, 0);
-	content: "";
 	background-image: url("../../images/plus_white.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -52,7 +50,6 @@
 .faq__item-btn:hover {
 	background: #6C0287;
 	border: 1px solid #6C0287;
-	content: "";
 	background-image: url("../../images/plus_for_purple_hover.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -61,7 +58,6 @@
 .faq__item-btn:active {
 	border: 1px solid #6C0287;
 	background: #E5E5E5;
-	content: "";
 	background-image: url("../../images/minus_for_purple_active.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -70,7 +66,6 @@
 .faq__item-btn_color:hover {
 	background: #FFFFFF;
 	border: 1px solid #FFFFFF;
-	content: "";
 	background-image: url("../../images/plus_for_white_hover.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -79,7 +74,6 @@
 .faq__item-btn_color:active {
 	border: 2px solid #FFFFFF;
 	background: #E5E5E5;
-	content: "";
 	background-image: url("../../images/minus_for_white_active.png");
 	background-repeat: no-repeat;
 	background-position: center;
