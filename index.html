@@ -152,106 +152,118 @@
 			<form class="form-order" id="order-form" action="https://jsonplaceholder.typicode.com/posts" method="post"
 				target="_blanc">
 				<h3 class="order-block__title">Выбери зал</h3>
-				<ul class="order-block__hall">
-					<li class="order-block__hall-item">
-						<label><input type="button" name="80`s vibes hall" value="80`S VIBES HALL"></label>
-					</li>
-					<li class="order-block__hall-item">
-						<label><input type="button" name="Star wars hall" value="STAR WARS"></label>
-					</li>
-					<li class="order-block__hall-item">
-						<label><input type="button" name="Wild west hall" value="WILD WEST"></label>
-					</li>
-					<li class="order-block__hall-item">
-						<label><input type="button" name="Neon style hall" value="NEON STYLE"></label>
-					</li>
-				</ul>
 
+				<div class="order-hall">
+					<div class="order-hall__items">
+						<input type="radio" id="vibes_hall" name="halls" value="80`s vibes hall" checked>
+						<label for="vibes_hall">80`S VIBES</label>
+					</div>
+					<div class="order-hall__items">
+						<input type="radio" id="star_wars_hall" name="halls" value="Star wars hall">
+						<label for="star_wars_hall">STAR WARS</label>
+					</div>
+					<div class="order-hall__items">
+						<input type="radio" id="wild_west_hall" name="halls" value="Wild west hall">
+						<label for="wild_west_hall">WILD WEST</label>
+					</div>
+					<div class="order-hall__items order-hall__items_pl">
+						<input type="radio" id="neon_style_hall" name="halls" value="Neon style hall">
+						<label for="neon_style_hall">NEON STYLE</label>
+					</div>
+				</div>
 				<h3 class="order-block__title">Собери набор развлечений</h3>
 
-				<div class="order-block__services">
+				<div class="order-services">
 
-					<div class="order-block__consoles">
-						<h3 class="order-block__consoles-title">Приставка:</h3>
-						<p class="order-block__consoles-text">
+					<div class="order-services__consoles">
+						<h3 class="order-services__consoles-title">Приставка:</h3>
+						<p class="order-services__consoles-text">
 							<label><input type="radio" name="PlayStation"> PlayStation</label>
 						</p>
-						<p class="order-block__consoles-text">
+						<p class="order-services__consoles-text">
 							<label><input type="radio" name="Sega Mega Drive"> Sega Mega Drive</label>
 						</p>
-						<p class="order-block__consoles-text">
+						<p class="order-services__consoles-text">
 							<label><input type="radio" name="X-box One S"> X-box One S</label>
 						</p>
-						<p class="order-block__consoles-text">
+						<p class="order-services__consoles-text">
 							<label><input type="radio" name="Dendy"> Dendy</label>
 						</p>
 					</div>
 
-					<div class="order-block__table-games">
-						<h3 class="order-block__table-games-title"> Настольные игры</h3>
-						<p class="order-block__table-games-text">
+					<div class="order-services__tgames">
+						<h3 class="order-services__tgames-title"> Настольные игры</h3>
+						<p class="order-services__tgames-text">
 							<label><input type="checkbox" name="Jenga"> Jenga</label>
 						</p>
-						<p class="order-block__table-games-text">
+						<p class="order-services__tgames-text">
 							<label><input type="checkbox" name="Monopoly"> Monopoly</label>
 						</p>
-						<p class="order-block__table-games-text">
+						<p class="order-services__tgames-text">
 							<label><input type="checkbox" name="Manchkin"> Манчкин</label>
 						</p>
-						<p class="order-block__table-games-text">
+						<p class="order-services__tgames-text">
 							<label><input type="checkbox" name="Alias"> Alias</label>
 						</p>
 					</div>
 
-					<div class="order-block__extra">
-						<h3 class="order-block__extra-title">Дополнительно</h3>
-						<p class="order-block__extra-text">
+					<div class="order-services__extra">
+						<h3 class="order-services__extra-title">Дополнительно</h3>
+						<p class="order-services__extra-text">
 							<label><input type="checkbox" name="karaoke" id="karaoke"> Караоке</label>
 						</p>
-						<p class="order-block__extra-text">
+						<p class="order-services__extra-text">
 							<label><input type="checkbox" name="VR"> VR</label>
 						</p>
 					</div>
 
 				</div>
 				<h3 class="order-block__title">Выбери дату и время</h3>
-				<div class="order-block__order">
-					<div class="order-block__details order-block__details_row">
-						<select name="date" class="order-block__details-date">
-							<option>Дата</option>
-						</select>
-						<select name="time" class="order-block__details-date">
-							<option>Время</option>
+				<div class="order-cart">
+
+					<div class="order-details">
+						<div class="order-details__dt">
+							<select name="date" class="order-details__dt-date">
+								<option>Дата</option>
+							</select>
+							<select name="time" class="order-details__dt-time">
+								<option>Время</option>
+							</select>
+						</div>
+						<select name="count" class="order-details__count">
+							<option>Сколько человек</option>
 						</select>
 					</div>
-					<div class="order-block__details order-block__details_m">
-						<label for="client-name" class="order-block__details-text">Имя</label>
+					<div class="order-client">
+						<div class="order-client__data">
+							<label for="client-name" class="order-client__data-text">Имя</label>
+							<p>
+								<input class="order-client__data-name" type="text" name="name" id="client-name" required>
+							</p>
+						</div>
+						<div class="order-client__data">
+							<label for="surname-client" class="order-client__data-text">Фамилия</label>
+							<p>
+								<input class="order-client__data-name" type="text" name="surname" id="surname-client" required>
+							</p>
+						</div>
+					</div>
+					<div class="order-contacts">
+						<div class="order-contacts__phone">
+							<label for="phone" class="order-contacts__phone-text">Телефон</label>
+							<p>
+								<input class="order-contacts__phone-input" type="tel" name="phone" id="phone" required>
+							</p>
+						</div>
+						<label for="email" class="order-contacts__email-text">E-mail</label>
 						<p>
-							<input class="order-block__details-input" type="text" name="name" id="client-name" required>
+							<input class="order-contacts__email-input" type="email" name="email" id="email" required>
 						</p>
-					</div>
-					<div class="order-block__details order-block__details_mb">
-						<label for="phone" class="order-block__details-text">Телефон</label>
-						<input class="order-block__details-input" type="tel" name="phone" id="phone" required>
-					</div>
-					<div class="order-block__select">
-						<select class="order-block__select-count" name="count">
-							<option class="order-block__count">Сколько человек</option>
-						</select>
-					</div>
-					<div class="order-block__details order-block__details_mr">
-						<label for="surname-client" class="order-block__details-text">Фамилия</label>
-						<p>
-							<input class="order-block__details-input" type="text" name="surname" id="surname-client" required>
-						</p>
-					</div>
-					<div class="order-block__details">
-						<label for="email" class="order-block__details-text">E-mail</label>
-						<input class="order-block__details-input" type="email" name="email" id="email" required>
 					</div>
 				</div>
-				<div class="order-block__button">
-					<button class="order-block__form-btn" type="submit">Забронировать</button>
+
+				<div class="order-block__action">
+					<button class="order-block__action order-block__action_btn" type="submit">Забронировать</button>
 				</div>
 			</form>
 		</div>
