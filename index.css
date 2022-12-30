@@ -16,7 +16,7 @@
 
 @import url("./styles/blocks/order-block.css");
 
-
+@import url("./styles/blocks/about-us.css");
 
 
 
@@ -31,7 +31,7 @@
 
 
 
-@import url("./common.blocks/about-us.css");
+
 
 @import url("./common.blocks/faq.css");
 
