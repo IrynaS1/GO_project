@@ -1,4 +1,6 @@
 .reviews {
+	padding-left: 100px;
+	padding-right: 100px;
 	margin-bottom: 100px;
 }
 
@@ -16,7 +18,7 @@
 }
 
 .user-review__author {
-	margin-right: 16px;
+	margin-right: 20px;
 }
 
 .user-review__name {
@@ -29,4 +31,10 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 28px;
+}
+
+.user-review__text {
+	max-width: 680px;
+	padding-top: 52px;
+	padding-bottom: 179px;
 }
