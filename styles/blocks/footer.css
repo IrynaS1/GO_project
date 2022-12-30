@@ -81,3 +81,15 @@
 .social-item__icon_pint {
 	margin-right: 26px;
 }
+
+.social-item__icon:hover {
+	background: #EADEED;
+}
+
+.social-item__icon:focus {
+	background: #EADEED;
+}
+
+.social-item__icon:active {
+	background: #CD06FF;
+}

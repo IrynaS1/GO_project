@@ -95,3 +95,43 @@
 	left: 560px;
 	bottom: 110px;
 }
+
+.top-action__down-btn {
+	min-width: 97px;
+	min-height: 97px;
+	border-radius: 50%;
+	border: 1px solid white;
+	background-color: rgba(28, 28, 28, 0);
+	color: #FFFFFF;
+}
+
+.top-action__down-btn:hover {
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	color: #6C0287;
+}
+
+.top-action__down-btn:focus {
+	border: 1px solid #FFFFFF;
+}
+
+.top-action__down-btn:active {
+	background: #CD06FF;
+	border: 1px solid #CD06FF;
+
+}
+
+.top-action__btn:hover {
+	background: #840AA3;
+	border-radius: 10px;
+}
+
+.top-action__btn:focus {
+	background: #840AA3;
+	border-radius: 10px;
+}
+
+.top-action__btn:active {
+	background: #640AA3;
+	border-radius: 10px;
+}

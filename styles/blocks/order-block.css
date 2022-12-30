@@ -33,8 +33,22 @@
 	background-color: white;
 }
 
-.order-hall__items input[type="radio"]:checked {
-	background-color: yellowgreen;
+.order-hall__items input[type="radio"]:hover {
+	background: #EADEED;
+	border: 3px solid #640AA3;
+	border-radius: 8px;
+}
+
+.order-hall__items input[type="radio"]:focus {
+	background: #FFFFFF;
+	border: 3px solid #640AA3;
+	border-radius: 8px;
+}
+
+.order-hall__items input[type="radio"]:active {
+	background: #6C0287;
+	border: 3px solid #FFFFFF;
+	border-radius: 8px;
 }
 
 .order-hall__items {
@@ -176,17 +190,55 @@
 	min-height: 52px;
 }
 
+.order-client__data-name:focus,
+.order-contacts__phone-input:focus,
+.order-contacts__email-input:focus {
+	background: #FFFFFF;
+	border: 2px solid #CD06FF;
+	outline: 0;
+}
+
 .order-block__action {
 	padding-left: 800px;
 }
 
-.order-block__action_btn {
+.order-block__action-btn {
+	border-radius: 10px;
+	padding: 16px 50px;
+}
+
+.order-block__action-text {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 28px;
 	text-transform: uppercase;
 	color: #6C0287;
-	padding: 16px 50px;
+}
+
+.order-services__consoles-text input[type="radio"]:focus {
+	outline: 1px solid #CD06FF;
+}
+
+.order-services__tgames-text input[type="checkbox"]:focus,
+.order-services__extra-text input[type="checkbox"]:focus {
+	background: #FFFFFF;
+	outline: 1px solid #CD06FF;
+}
+
+.order-block__action-btn:hover {
+	background: #EADEED;
+	border: 3px solid #6C0287;
+	border-radius: 10px;
+}
+
+.order-block__action-btn:focus {
+	background: #FFFFFF;
+	outline: 3px solid #6C0287;
+	border-radius: 10px;
+}
+
+.order-block__action-btn:active {
+	background: #EADEED;
 	border-radius: 10px;
 }
