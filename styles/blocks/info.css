@@ -29,6 +29,7 @@
 .list-one__item {
 	max-width: max-content;
 	position: relative;
+	transition-property: width, border, box-shadow;
 }
 
 .list-one__item_mb {
@@ -45,6 +46,7 @@
 .list-two__item {
 	max-width: max-content;
 	position: relative;
+	transition-property: width, border, box-shadow;
 }
 
 .list-two__item_mb {
@@ -68,4 +70,16 @@
 .list-one__item-text_bottom,
 .list-two__item-text_bottom {
 	bottom: 6px;
+}
+
+.list-one__item:hover {
+	width: 110%;
+	border: 1px solid grey;
+	box-shadow: 0 0 10px #555;
+}
+
+.list-two__item:hover {
+	width: 110%;
+	border: 1px solid grey;
+	box-shadow: 0 0 10px #555;
 }
