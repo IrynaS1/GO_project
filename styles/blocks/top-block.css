@@ -109,29 +109,34 @@
 	background: #FFFFFF;
 	border: 1px solid #FFFFFF;
 	color: #6C0287;
+	transition-duration: 1s;
 }
 
 .top-action__down-btn:focus {
 	border: 1px solid #FFFFFF;
+	transition-duration: 1s;
 }
 
 .top-action__down-btn:active {
 	background: #CD06FF;
 	border: 1px solid #CD06FF;
-
+	transition-duration: 1s;
 }
 
 .top-action__btn:hover {
 	background: #840AA3;
 	border-radius: 10px;
+	transition-duration: 1s;
 }
 
 .top-action__btn:focus {
 	background: #840AA3;
 	border-radius: 10px;
+	transition-duration: 1s;
 }
 
 .top-action__btn:active {
 	background: #640AA3;
 	border-radius: 10px;
+	transition-duration: 1s;
 }
