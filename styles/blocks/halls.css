@@ -8,8 +8,8 @@
 }
 
 .halls-list__hall {
-	max-width: 580px;
-	max-height: 349px;
+	min-width: 580px;
+	min-height: 349px;
 	position: relative;
 }
 
