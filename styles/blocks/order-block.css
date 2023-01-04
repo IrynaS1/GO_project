@@ -222,32 +222,32 @@
 
 .order-services__consoles-text input[type="radio"]:focus {
 	outline: 1px solid #CD06FF;
-	transition-duration: 500ms;
+	transition-duration: 2s;
 }
 
 .order-services__tgames-text input[type="checkbox"]:focus,
 .order-services__extra-text input[type="checkbox"]:focus {
 	background: #FFFFFF;
 	outline: 1px solid #CD06FF;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
 
 .order-block__action-btn:hover {
 	background: #EADEED;
 	border: 3px solid #6C0287;
 	border-radius: 10px;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
 
 .order-block__action-btn:focus {
 	background: #FFFFFF;
 	outline: 3px solid #6C0287;
 	border-radius: 10px;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
 
 .order-block__action-btn:active {
 	background: #EADEED;
 	border-radius: 10px;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
