@@ -53,7 +53,7 @@
 	background-image: url("../../images/plus_for_purple_hover.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
 
 .faq__item-btn:active {
@@ -62,7 +62,7 @@
 	background-image: url("../../images/minus_for_purple_active.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
 
 .faq__item-btn_color:hover {
@@ -71,7 +71,7 @@
 	background-image: url("../../images/plus_for_white_hover.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
 
 .faq__item-btn_color:active {
@@ -80,5 +80,5 @@
 	background-image: url("../../images/minus_for_white_active.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }

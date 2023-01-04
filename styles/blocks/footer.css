@@ -104,17 +104,17 @@
 .social-item__icon-img:hover {
 	border-radius: 50%;
 	background-color: #EADEED;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
 
 .social-item__icon-img:focus {
 	border-radius: 50%;
 	background-color: #EADEED;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
 
 .social-item__icon-img:active {
 	border-radius: 50%;
 	background-color: #CD06FF;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
