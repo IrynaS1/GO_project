@@ -3,7 +3,6 @@
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 50px;
-
 }
 
 .header__logo {
@@ -47,25 +46,25 @@
 	padding-bottom: 13px;
 	padding-left: 32px;
 	background-color: #1B1A1B;
-	border: 3px solid #CD06FF;
+	border: 3px solid var(--color-four, #CD06FF);
 	border-radius: 10px;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 30px;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: var(--color-two, #FFFFFF);
 }
 
 .header__button:hover {
-	background: #6C0287;
-	border: 3px solid #6C0287;
+	background: var(--color-one, #6C0287);
+	border: 3px solid var(--color-one, #6C0287);
 	border-radius: 10px;
 	transition-duration: 1.5s;
 }
 
 .header__button:focus {
-	background: #6C0287;
+	background: var(--color-one, #6C0287);
 	border-radius: 10px;
 	transition-duration: 2s;
 }

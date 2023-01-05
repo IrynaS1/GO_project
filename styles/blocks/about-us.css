@@ -37,7 +37,7 @@
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 50px;
-	color: #6C0287;
+	color: var(--color-one, #6C0287);
 	padding-right: 16px;
 }
 
@@ -47,7 +47,7 @@
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 50px;
-	color: #6C0287;
+	color: var(--color-one, #6C0287);
 }
 
 .about-us__author {
