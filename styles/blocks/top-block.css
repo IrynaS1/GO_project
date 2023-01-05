@@ -48,7 +48,7 @@
 	font-weight: 900;
 	font-size: 100px;
 	line-height: 141px;
-	color: #CD06FF;
+	color: var(--color-four, #CD06FF);
 	text-align: center;
 }
 
@@ -57,7 +57,7 @@
 	font-weight: 900;
 	font-size: 75px;
 	line-height: 106px;
-	color: #CD06FF;
+	color: var(--color-four, #CD06FF);
 	font-variant: small-caps;
 }
 
@@ -76,8 +76,8 @@
 	font-size: 26px;
 	line-height: 30px;
 	text-transform: uppercase;
-	color: #FFFFFF;
-	background: #6C0287;
+	color: var(--color-two, #FFFFFF);
+	background: var(--color-one, #6C0287);
 	border-radius: 10px;
 	padding: 25px 69px;
 }
@@ -100,43 +100,43 @@
 	min-width: 97px;
 	min-height: 97px;
 	border-radius: 50%;
-	border: 1px solid white;
+	border: 1px solid var(--color-two, #FFFFFF);
 	background-color: rgba(28, 28, 28, 0);
-	color: #FFFFFF;
+	color: var(--color-two, #FFFFFF);
 }
 
 .top-action__down-btn:hover {
-	background: #FFFFFF;
-	border: 1px solid #FFFFFF;
-	color: #6C0287;
-	transition-duration: 1s;
+	background: var(--color-two, #FFFFFF);
+	border: 1px solid var(--color-two, #FFFFFF);
+	color: var(--color-one, #6C0287);
+	transition-duration: 1.5s;
 }
 
 .top-action__down-btn:focus {
-	border: 1px solid #FFFFFF;
-	transition-duration: 1s;
+	border: 1px solid var(--color-two, #FFFFFF);
+	transition-duration: 1.5s;
 }
 
 .top-action__down-btn:active {
-	background: #CD06FF;
-	border: 1px solid #CD06FF;
-	transition-duration: 1s;
+	background: var(--color-four, #CD06FF);
+	border: 1px solid var(--color-four, #CD06FF);
+	transition-duration: 1.5s;
 }
 
 .top-action__btn:hover {
 	background: #840AA3;
 	border-radius: 10px;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
 
 .top-action__btn:focus {
 	background: #840AA3;
 	border-radius: 10px;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
 
 .top-action__btn:active {
 	background: #640AA3;
 	border-radius: 10px;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }

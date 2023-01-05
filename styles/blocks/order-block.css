@@ -1,7 +1,7 @@
 .order-block {
 	padding: 80px 130px;
 	margin-bottom: 50px;
-	background-color: #440F51;
+	background-color: var(--color-three, #440F51);
 }
 
 .order-block__title {
@@ -30,7 +30,7 @@
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	background-color: white;
+	background-color: var(--color-two, #FFFFFF);
 }
 
 .order-hall__items input[type="radio"]:hover {
@@ -41,15 +41,15 @@
 }
 
 .order-hall__items input[type="radio"]:focus {
-	background: #FFFFFF;
+	background: var(--color-two, #FFFFFF);
 	border: 3px solid #640AA3;
 	border-radius: 8px;
 	transition-duration: 1s;
 }
 
 .order-hall__items input[type="radio"]:active {
-	background: #6C0287;
-	border: 3px solid #FFFFFF;
+	background: var(--color-one, #6C0287);
+	border: 3px solid var(--color-two, #FFFFFF);
 	border-radius: 8px;
 	transition-duration: 1s;
 }
@@ -177,7 +177,7 @@
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 16px;
-	color: #FFFFFF;
+	color: var(--color-two, #FFFFFF);
 	margin-bottom: 6px;
 }
 
@@ -196,8 +196,8 @@
 .order-client__data-name:focus,
 .order-contacts__phone-input:focus,
 .order-contacts__email-input:focus {
-	background: #FFFFFF;
-	border: 2px solid #CD06FF;
+	background: var(--color-two, #FFFFFF);
+	border: 2px solid var(--color-four, #CD06FF);
 	outline: 0;
 	transition-duration: 1s;
 }
@@ -217,37 +217,37 @@
 	font-size: 22px;
 	line-height: 28px;
 	text-transform: uppercase;
-	color: #6C0287;
+	color: var(--color-one, #6C0287);
 }
 
 .order-services__consoles-text input[type="radio"]:focus {
-	outline: 1px solid #CD06FF;
-	transition-duration: 500ms;
+	outline: 1px solid var(--color-four, #CD06FF);
+	transition-duration: 2s;
 }
 
 .order-services__tgames-text input[type="checkbox"]:focus,
 .order-services__extra-text input[type="checkbox"]:focus {
-	background: #FFFFFF;
-	outline: 1px solid #CD06FF;
-	transition-duration: 1s;
+	background: var(--color-two, #FFFFFF);
+	outline: 1px solid var(--color-four, #CD06FF);
+	transition-duration: 1.5s;
 }
 
 .order-block__action-btn:hover {
 	background: #EADEED;
-	border: 3px solid #6C0287;
+	border: 3px solid var(--color-one, #6C0287);
 	border-radius: 10px;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
 
 .order-block__action-btn:focus {
-	background: #FFFFFF;
-	outline: 3px solid #6C0287;
+	background: var(--color-two, #FFFFFF);
+	outline: 3px solid var(--color-one, #6C0287);
 	border-radius: 10px;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }
 
 .order-block__action-btn:active {
 	background: #EADEED;
 	border-radius: 10px;
-	transition-duration: 1s;
+	transition-duration: 1.5s;
 }

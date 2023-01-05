@@ -18,6 +18,7 @@
 }
 
 .user-review__author {
+	position: relative;
 	margin-right: 20px;
 }
 
@@ -37,4 +38,10 @@
 	max-width: 680px;
 	padding-top: 52px;
 	padding-bottom: 179px;
+}
+
+.user-review__photo_gradient {
+	position: absolute;
+	opacity: 0.9;
+	bottom: 28px;
 }

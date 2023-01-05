@@ -1,5 +1,7 @@
 @import url("style.css");
 
+@import url("./styles/blocks/variables.css");
+
 @import url("./styles/blocks/wrapper.css");
 
 @import url("./styles/blocks/header-wrapper.css");
