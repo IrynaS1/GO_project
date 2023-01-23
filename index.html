@@ -24,19 +24,19 @@
 					<nav>
 						<ul class="header__nav-list">
 							<li class="header__nav-item">
-								<a href="#">залы</a>
+								<a href="#halls">залы</a>
 							</li>
 							<li class="header__nav-item">
-								<a href="#">о нас</a>
+								<a href="#about-us">о нас</a>
 							</li>
 							<li class="header__nav-item">
-								<a href="#">бронь</a>
+								<a href="#order">бронь</a>
 							</li>
 							<li class="header__nav-item">
-								<a href="#">отзывы</a>
+								<a href="#reviews">отзывы</a>
 							</li>
 							<li class="header__nav-item">
-								<a href="#">контакты</a>
+								<a href="#contacts">контакты</a>
 							</li>
 						</ul>
 					</nav>
@@ -66,7 +66,9 @@
 				</div>
 
 				<div class="top-action">
-					<button class="top-action__btn">Забронировать</button>
+					<a href="#halls">
+						<button class="top-action__btn">Забронировать</button>
+					</a>
 				</div>
 
 				<div class="top-img">
@@ -74,12 +76,12 @@
 				</div>
 
 				<div class="top-action__down">
-					<button class="top-action__down-btn">V</button>
+					<a href="#services"><button class="top-action__down-btn">V</button></a>
 				</div>
 			</div>
 
 			<!--Секция "У нас есть все для классного отдыха с друзьями"-->
-			<section>
+			<section id="services">
 				<div class="info">
 					<div class="info__title">
 						<h2 class="info__title info__title_pre-line">У нас есть все для классного
@@ -100,8 +102,10 @@
 						<div class="list-two">
 							<div class="list-two__item list-two__item_mb">
 								<img src="./images/audio.png" alt="Аудио-система 5.1 с отличным звуком">
-								<span class="list-two__item-text list-two__item-text_bottom">Аудио-система 5.1 с отличным
-									звуком</span>
+								<span class="list-two__item-text list-two__item-text_bottom list-two__item-text_width">
+									Аудио-система 5.1
+									с отличным звуком
+								</span>
 							</div>
 							<div class="list-two__item">
 								<img src="./images/cinema.png" alt="Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko">
@@ -126,36 +130,44 @@
 			</section>
 
 			<!--Секция "Залы"-->
-			<section>
+			<section id="halls">
 				<div id="halls" class="halls">
-					<h2 class="titles">Наши залы</h2>
-					<div class="halls-list halls-list__block">
-						<div class="halls-list__hall halls-list__hall_mr">
-							<img src="./images/pic2.jpg" alt="Зал 80`s vibes">
-							<span class="halls-list__hall-name">80`s vibes</span>
-						</div>
-						<div class="halls-list__hall">
-							<img src="./images/pic3.jpg" alt="Зал Star wars">
-							<span class="halls-list__hall-name">Star wars</span>
-						</div>
-					</div>
+					<h2 class="titles halls__title">Наши залы</h2>
+					<!--Секция "Залы" (новая)-->
 					<div class="halls-list">
-						<div class="halls-list__hall halls-list__hall_mr">
-							<img src="./images/pic4.jpg" alt="Зал Wild west">
-							<span class=" halls-list__hall-name">Wild west</span>
+						<div class="hall">
+							<a href="#">
+								<img src="./images/pic2.jpg" alt="Зал 80`s vibes">
+								<span class="hall__name hall__name_vibes">80`s vibes</span>
+							</a>
 						</div>
-						<div class="halls-list__hall">
-							<img src="./images/pic5.jpg" alt="Зал Neon style">
-							<span class="halls-list__hall-name">Neon style</span>
+						<div class="hall">
+							<a href="#">
+								<img src="./images/pic3.jpg" alt="Зал Star wars">
+								<span class="hall__name hall__name_sw">Star wars</span>
+							</a>
+						</div>
+						<div class="hall">
+							<a href="#">
+								<img src="./images/pic4.jpg" alt="Зал Wild west">
+								<span class="hall__name hall__name_ww">Wild west</span>
+							</a>
+						</div>
+						<div class="hall">
+							<a href="#">
+								<img src="./images/pic5.jpg" alt="Зал Neon style">
+								<span class="hall__name hall__name_ns">Neon style</span>
+							</a>
 						</div>
 					</div>
 				</div>
 			</section>
+
 	</div>
 	<!--Секция "Забронировать"-->
-	<section>
+	<section id="order">
 		<div class="order-block">
-			<h2 class="titles">Забронировать</h2>
+			<h2 class="titles order-block__main-title">Забронировать зал просто</h2>
 			<form class="form-order" id="order-form" action="https://jsonplaceholder.typicode.com/posts" method="post"
 				target="_blanc">
 				<h3 class="order-block__title">Выбери зал</h3>
@@ -185,47 +197,48 @@
 					<div class="order-services__consoles">
 						<h3 class="order-services__consoles-title">Приставка:</h3>
 						<p class="order-services__consoles-text">
-							<label><input type="radio" name="PlayStation"> PlayStation</label>
+							<label><input type="radio" name="PlayStation" id="PlayStation" class="scale"> PlayStation 5</label>
 						</p>
 						<p class="order-services__consoles-text">
-							<label><input type="radio" name="Sega Mega Drive"> Sega Mega Drive</label>
+							<label><input type="radio" name="Sega Mega Drive" id="Sega Mega Drive" class="scale"> Sega Mega
+								Drive</label>
 						</p>
 						<p class="order-services__consoles-text">
-							<label><input type="radio" name="X-box One S"> X-box One S</label>
+							<label><input type="radio" name="X-box One S" id="X-box One S" class="scale"> X-box One S</label>
 						</p>
 						<p class="order-services__consoles-text">
-							<label><input type="radio" name="Dendy"> Dendy</label>
+							<label><input type="radio" name="Dendy" id="Dendy" class="scale"> Dendy</label>
 						</p>
 					</div>
 
 					<div class="order-services__tgames">
 						<h3 class="order-services__tgames-title"> Настольные игры</h3>
 						<p class="order-services__tgames-text">
-							<label><input type="checkbox" name="Jenga"> Jenga</label>
+							<label><input type="checkbox" name="Jenga" id="Jenga" class="scale"> Jenga</label>
 						</p>
 						<p class="order-services__tgames-text">
-							<label><input type="checkbox" name="Monopoly"> Monopoly</label>
+							<label><input type="checkbox" name="Monopoly" id="Monopoly" class="scale"> Monopoly</label>
 						</p>
 						<p class="order-services__tgames-text">
-							<label><input type="checkbox" name="Manchkin"> Манчкин</label>
+							<label><input type="checkbox" name="Manchkin" id="Manchkin" class="scale"> Манчкин</label>
 						</p>
 						<p class="order-services__tgames-text">
-							<label><input type="checkbox" name="Alias"> Alias</label>
+							<label><input type="checkbox" name="Alias" id="Alias" class="scale"> Alias</label>
 						</p>
 					</div>
 
 					<div class="order-services__extra">
 						<h3 class="order-services__extra-title">Дополнительно</h3>
 						<p class="order-services__extra-text">
-							<label><input type="checkbox" name="karaoke" id="karaoke"> Караоке</label>
+							<label><input type="checkbox" name="karaoke" id="karaoke" class="scale"> Караоке</label>
 						</p>
 						<p class="order-services__extra-text">
-							<label><input type="checkbox" name="VR"> VR</label>
+							<label><input type="checkbox" name="VR" id="VR" class="scale"> VR</label>
 						</p>
 					</div>
 
 				</div>
-				<h3 class="order-block__title">Выбери дату и время</h3>
+				<h3 class="order-block__title order-block__title_order">Выбери дату и время</h3>
 				<div class="order-cart">
 
 					<div class="order-details">
@@ -281,19 +294,21 @@
 	<div class="wrapper">
 		<article>
 			<div id="about-us">
-				<h2 class="titles">О нас</h2>
+				<h2 class="titles about-us__title">О нас</h2>
 				<div class="about-us">
 					<div class="about-us__pic">
 						<img src="./images/pic6.jpg" title="Наши возможности">
 					</div>
 					<div class="about-us__about-us-content">
 						<div class="about-us__about-us-text">
-							<p>Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности
+							<p class="about-us__about-us-text 
+							about-us__about-us-text_mb">Для наших гостей мы создали концептуально новое
+								игровое пространство виртуальной реальности
 								в центральной части города.</p>
-							<p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас
-								топовыми
-								игровыми
-								разработками со всего мира.</p>
+							<p class="about-us__about-us-text about-us__about-us-text_ws">Каждый день мы стараемся создавать
+								для вас самую лучшую игровую атмосферу
+								и радовать Вас топовыми игровыми разработками
+								со всего мира.</p>
 						</div>
 						<blockquote>
 							<div class="about-us__quote"> <strong>GAME OVER</strong> -
@@ -312,7 +327,7 @@
 			</div>
 		</article>
 
-		<article>
+		<article id="reviews">
 			<h2 class="titles">Отзывы посетителей</h2>
 			<div class="reviews">
 

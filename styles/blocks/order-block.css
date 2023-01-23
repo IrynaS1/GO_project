@@ -1,5 +1,5 @@
 .order-block {
-	padding: 80px 130px;
+	padding: 80px 2400px;
 	margin-bottom: 50px;
 	background-color: var(--color-three, #440F51);
 }
@@ -203,7 +203,7 @@
 }
 
 .order-block__action {
-	padding-left: 800px;
+	padding-left: 875px;
 }
 
 .order-block__action-btn {
@@ -250,4 +250,149 @@
 	background: #EADEED;
 	border-radius: 10px;
 	transition-duration: 1.5s;
+}
+
+@media (max-width:4608px) {
+	.order-block {
+		padding: 80px 1650px;
+	}
+
+	.order-block__action {
+		padding-left: 855px;
+	}
+}
+
+@media (max-width:3072px) {
+	.order-block {
+		padding: 80px 900px;
+	}
+
+	.order-block__action {
+		padding-left: 840px;
+	}
+}
+
+@media (max-width:2304px) {
+	.order-block {
+		padding: 80px 550px;
+	}
+
+	.order-block__action {
+		padding-left: 800px;
+	}
+}
+
+@media (max-width:2048px) {
+	.order-block {
+		padding: 80px 400px;
+	}
+
+	.order-block__action {
+		padding-left: 825px;
+	}
+}
+
+@media (max-width:1920px) {
+	.order-block {
+		padding: 80px 330px;
+	}
+
+	.order-block__action {
+		padding-left: 840px;
+	}
+}
+
+@media (max-width:1706.67px) {
+	.order-block {
+		padding: 80px 220px;
+	}
+
+	.order-block__action {
+		padding-left: 845px;
+	}
+}
+
+@media (max-width:1536px) {
+	.order-block {
+		padding: 80px 140px;
+	}
+
+	.order-block__action {
+		padding-left: 838px;
+	}
+}
+
+@media (max-width:1440px) {
+	.order-block {
+		padding: 78px 130px 80px 125px;
+		margin-bottom: 100px;
+	}
+
+	.order-block__main-title {
+		margin-bottom: 45px;
+	}
+
+	.order-block__title {
+		margin-bottom: 41px;
+	}
+
+	.order-hall {
+		margin-bottom: 56px;
+	}
+
+	.order-hall__items label {
+		left: 9px;
+	}
+
+	.order-services {
+		padding-left: 105px;
+		padding-right: 112px;
+		margin-bottom: 62px;
+	}
+
+	.scale {
+		transform: scale(2.2);
+		opacity: 0.9;
+		cursor: pointer;
+		margin-right: 13px;
+	}
+
+	.order-block__title_order {
+		margin-bottom: 38px;
+	}
+
+	.order-cart {
+		padding-right: 105px;
+		justify-content: flex-start;
+	}
+
+	.order-details,
+	.order-contacts {
+		min-width: 300px;
+	}
+
+	.order-client {
+		min-width: 0;
+		max-width: 280px;
+	}
+
+	.order-details {
+		padding-top: 17px;
+	}
+
+	.order-details__dt-date,
+	.order-details__dt-time,
+	.order-details__count {
+		padding-top: 18px;
+		padding-left: 16px;
+	}
+
+	.order-client__data:not(:last-child),
+	.order-contacts__phone {
+		margin-bottom: 18px;
+	}
+
+	.order-block__action {
+		padding-left: 780px;
+	}
 }

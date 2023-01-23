@@ -3,17 +3,18 @@
 }
 
 .halls-list {
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	column-gap: 20px;
+	row-gap: 20px;
 }
 
-.halls-list__hall {
-	min-width: 580px;
-	min-height: 349px;
+.hall {
 	position: relative;
 }
 
-.halls-list__hall-name {
+.hall__name {
 	text-transform: uppercase;
 	font-style: normal;
 	font-weight: 700;
@@ -22,15 +23,17 @@
 	max-width: 252px;
 	display: inline-block;
 	position: absolute;
-	right: 164px;
-	bottom: 95px;
+	left: 164px;
+	top: 94px;
 	text-align: center;
 }
 
-.halls-list__block {
-	margin-bottom: 20px;
-}
+@media (max-width:1440px) {
+	.halls {
+		margin-bottom: 90px;
+	}
 
-.halls-list__hall_mr {
-	margin-right: 20px;
+	.halls__title {
+		margin-bottom: 45px;
+	}
 }
