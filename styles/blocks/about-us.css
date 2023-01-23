@@ -15,7 +15,6 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 28px;
-	margin-bottom: 78px;
 	min-width: 500px;
 	margin-bottom: 59px;
 }
@@ -66,4 +65,25 @@
 	line-height: 28px;
 	margin-top: -80px;
 	white-space: pre-line;
+}
+
+@media (max-width:1440px) {
+	.about-us {
+		margin-bottom: 80px;
+	}
+
+	.about-us__title {
+		margin-bottom: 45px;
+	}
+
+	.about-us__about-us-text_mb {
+		margin-bottom: 28px;
+		white-space: pre-line;
+	}
+
+	.about-us__about-us-text_ws {
+		white-space: pre-line;
+	}
+
+	/*Закончила на цитате*.
 }

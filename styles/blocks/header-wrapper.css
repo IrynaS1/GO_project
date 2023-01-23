@@ -41,10 +41,7 @@
 
 .header__button {
 	width: 100%;
-	padding-top: 12px;
-	padding-right: 32px;
-	padding-bottom: 13px;
-	padding-left: 32px;
+	padding: 12px 32px 13px 32px;
 	background-color: #1B1A1B;
 	border: 3px solid var(--color-four, #CD06FF);
 	border-radius: 10px;
@@ -74,4 +71,14 @@
 	border: 1px solid #000000;
 	border-radius: 10px;
 	transition-duration: 2s;
+}
+
+@media (max-width:1440px) {
+	.header-wrapper {
+		margin-bottom: 47px;
+	}
+
+	.header__button {
+		padding: 12px 34px 10px 32px;
+	}
 }

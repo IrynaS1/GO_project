@@ -140,3 +140,19 @@
 	border-radius: 10px;
 	transition-duration: 1.5s;
 }
+
+@media (max-width:1440px) {
+	.benefit__two {
+		padding-top: 40px;
+	}
+
+	.benefit__two_color {
+		font-size: 64px;
+		line-height: 100px;
+	}
+
+	.top-action__down {
+		left: 540px;
+		bottom: 90px;
+	}
+}
