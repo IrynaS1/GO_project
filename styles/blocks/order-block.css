@@ -401,3 +401,13 @@
 		padding-left: 780px;
 	}
 }
+
+@media (max-width:1396.36px) {
+	.order-block {
+		padding: 78px 90px 80px 90px;
+	}
+
+	.order-cart {
+		padding-right: 120px;
+	}
+}
