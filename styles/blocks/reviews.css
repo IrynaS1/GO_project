@@ -14,7 +14,7 @@
 }
 
 .user-review__photo {
-	margin-bottom: 11px;
+	margin-bottom: 7px;
 }
 
 .user-review__author {
@@ -44,4 +44,14 @@
 	position: absolute;
 	opacity: 0.9;
 	bottom: 28px;
+}
+
+@media (max-width:1440px) {
+	.reviews__title {
+		margin-bottom: 44px;
+	}
+
+	.user-review__text_pt {
+		padding-top: 20px;
+	}
 }

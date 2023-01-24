@@ -3,8 +3,8 @@
 }
 
 .info__title {
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 98px;
+	padding-right: 104px;
 	margin-bottom: 41px;
 }
 
@@ -80,12 +80,6 @@
 @media (max-width:1440px) {
 	.info {
 		margin-bottom: 95px;
-	}
-
-	.info__title {
-		padding-left: 97px;
-		padding-right: 102px;
-		margin-bottom: 41px;
 	}
 
 	.list-two {

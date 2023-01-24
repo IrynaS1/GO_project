@@ -4,6 +4,10 @@
 	background-color: var(--color-three, #440F51);
 }
 
+.order-block__main-title {
+	margin-bottom: 45px;
+}
+
 .order-block__title {
 	font-style: normal;
 	font-weight: 700;
@@ -328,10 +332,6 @@
 		margin-bottom: 100px;
 	}
 
-	.order-block__main-title {
-		margin-bottom: 45px;
-	}
-
 	.order-block__title {
 		margin-bottom: 41px;
 	}
@@ -345,8 +345,8 @@
 	}
 
 	.order-services {
-		padding-left: 105px;
-		padding-right: 112px;
+		padding-left: 102px;
+		padding-right: 115px;
 		margin-bottom: 62px;
 	}
 
@@ -385,6 +385,11 @@
 	.order-details__count {
 		padding-top: 18px;
 		padding-left: 16px;
+	}
+
+	.order-client__data-name {
+		min-width: 0;
+		width: 280px;
 	}
 
 	.order-client__data:not(:last-child),

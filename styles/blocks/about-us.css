@@ -3,6 +3,11 @@
 	margin-bottom: 100px;
 }
 
+.about-us__title {
+	margin-bottom: 45px;
+}
+
+
 .about-us__pic {
 	min-width: 600px;
 	min-height: 596px;
@@ -25,19 +30,27 @@
 	font-size: 44px;
 	line-height: 50px;
 	text-transform: uppercase;
-	margin-bottom: 40px;
 	white-space: pre-line;
 	min-width: 469px;
 }
 
-.about-us__quote:before {
+blockquote {
+	position: relative;
+}
+
+blockquote:before {
 	content: "\275D";
 	font-style: normal;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 50px;
 	color: var(--color-one, #6C0287);
-	padding-right: 16px;
+}
+
+.about-us__quote {
+	position: absolute;
+	top: 4px;
+	left: 31px;
 }
 
 .about-us__quote:after {
@@ -50,11 +63,13 @@
 }
 
 .about-us__author {
-	padding-left: 100px;
+	position: absolute;
+	top: 232px;
+	left: 110px;
 }
 
 .about-us__author-quote-image {
-	margin-right: 30px;
+	margin-right: 27px;
 }
 
 .about-us__about-author {
@@ -63,17 +78,16 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 28px;
-	margin-top: -80px;
 	white-space: pre-line;
 }
 
 @media (max-width:1440px) {
 	.about-us {
-		margin-bottom: 80px;
+		margin-bottom: 95px;
 	}
 
-	.about-us__title {
-		margin-bottom: 45px;
+	.about-us__about-us-text {
+		margin-bottom: 0;
 	}
 
 	.about-us__about-us-text_mb {
@@ -83,7 +97,7 @@
 
 	.about-us__about-us-text_ws {
 		white-space: pre-line;
+		margin-bottom: 53px;
 	}
 
-	/*Закончила на цитате*/
 }
