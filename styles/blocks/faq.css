@@ -2,6 +2,10 @@
 	margin-bottom: 45px;
 }
 
+.faq-block__title {
+	margin-bottom: 48px;
+}
+
 .faq__item {
 	min-width: 1180px;
 	min-height: 87px;
@@ -81,4 +85,10 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	transition-duration: 1.5s;
+}
+
+@media (max-width:1440px) {
+	.faq__item {
+		padding: 0 75px 0 70px;
+	}
 }

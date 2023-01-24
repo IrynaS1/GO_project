@@ -2,6 +2,10 @@
 	margin-bottom: 100px;
 }
 
+.halls__title {
+	margin-bottom: 45px;
+}
+
 .halls-list {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -31,9 +35,5 @@
 @media (max-width:1440px) {
 	.halls {
 		margin-bottom: 90px;
-	}
-
-	.halls__title {
-		margin-bottom: 45px;
 	}
 }

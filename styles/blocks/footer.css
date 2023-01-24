@@ -4,6 +4,10 @@
 	justify-content: space-between;
 }
 
+.contacts__title {
+	margin-bottom: 45px;
+}
+
 .footer-address {
 	min-width: 380px;
 	margin-right: 60px;
@@ -22,40 +26,57 @@
 	margin-bottom: 35px;
 }
 
-.address-item__location {
+.address-item__location:before {
+	content: "";
 	background-image: url("../../images/location.svg");
-	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: left;
+	min-width: 35px;
+	min-height: 32px;
+	position: absolute;
+	top: 15px;
+	right: 347px;
+}
+
+.address-item__location {
+	position: relative;
 	padding-right: 30px;
-	padding-left: 80px;
-	margin-left: 20px;
+	padding-left: 60px;
 	white-space: pre-line;
-	margin-bottom: 38px;
+	margin-bottom: 45px;
+}
+
+.address-item__phone:before {
+	content: "";
+	background-image: url("../../images/bx_bxs-phone-call.svg");
+	background-repeat: no-repeat;
+	min-width: 35px;
+	min-height: 32px;
+	position: absolute;
+	right: 345px;
 }
 
 .address-item__phone {
-	background-image: url("../../images/bx_bxs-phone-call.svg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: left;
+	position: relative;
 	padding-right: 30px;
-	padding-left: 80px;
-	margin-left: 20px;
-	white-space: pre-line;
-	margin-bottom: 11px;
+	padding-left: 60px;
+	margin-bottom: 10px;
 	text-decoration: none;
 }
 
-.address-item__email {
+.address-item__email:before {
+	content: "";
 	background-image: url("../../images/envelope.svg");
-	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: left;
+	min-width: 35px;
+	min-height: 32px;
+	position: absolute;
+	right: 343px;
+}
+
+.address-item__email {
+	position: relative;
 	padding-right: 30px;
-	padding-left: 80px;
-	margin-left: 20px;
-	white-space: pre-line;
+	padding-left: 60px;
 }
 
 .social-item {
@@ -117,4 +138,19 @@
 	border-radius: 50%;
 	background-color: #CD06FF;
 	transition-duration: 1.5s;
+}
+
+@media (max-width:1440px) {
+	.footer {
+		margin-bottom: 140px;
+	}
+
+	.address-item {
+		margin-bottom: 40px;
+	}
+
+	.social-item {
+		max-width: 275px;
+	}
+
 }
