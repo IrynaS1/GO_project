@@ -1,4 +1,4 @@
-.faq {
+.faq-block {
 	margin-bottom: 45px;
 }
 
@@ -90,5 +90,23 @@
 @media (max-width:1440px) {
 	.faq__item {
 		padding: 0 75px 0 70px;
+	}
+}
+
+@media (max-width:1228.80px) {
+	.faq-block__title {
+		margin-bottom: 26px;
+	}
+
+	.faq__item {
+		min-width: 904px;
+		min-height: 70px;
+		padding: 0 20px 0 25px;
+		margin-bottom: 16px;
+	}
+
+	.faq__text-item {
+		font-size: 20px;
+		line-height: 24px;
 	}
 }

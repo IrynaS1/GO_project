@@ -55,3 +55,9 @@
 		padding: 55px 90px 10px 90px;
 	}
 }
+
+@media (max-width:1228.80px) {
+	.footer-wrapper {
+		padding: 12px 90px 19px 90px;
+	}
+}

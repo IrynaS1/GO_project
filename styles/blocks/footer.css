@@ -152,5 +152,75 @@
 	.social-item {
 		max-width: 275px;
 	}
+}
 
+@media (max-width:1228.80px) {
+	.footer {
+		margin-bottom: 100px;
+	}
+
+	.contacts__title {
+		margin-bottom: 26px;
+	}
+
+	.address-item__location:before {
+		background-image: url("../../images/location1024.svg");
+		min-width: 26px;
+		min-height: 26px;
+	}
+
+	.address-item__location {
+		padding-left: 40px;
+		margin-bottom: 40px;
+	}
+
+	.address-item__phone:before {
+		background-image: url("../../images/bx_bxs-phone-call1024.svg");
+		min-width: 26px;
+		min-height: 26px;
+	}
+
+	.address-item__phone {
+		padding-left: 40px;
+	}
+
+	.address-item__email:before {
+		background-image: url("../../images/envelope1024.svg");
+		min-width: 26px;
+		min-height: 26px;
+	}
+
+	.address-item__email {
+		padding-left: 40px;
+	}
+
+	.social-item__icon-img_vk {
+		min-width: 40px;
+		min-height: 40px;
+		background-image: url("../../images/vk1024.svg");
+		margin-right: 26.8px;
+	}
+
+	.social-item__icon-img_tg {
+		min-width: 40px;
+		min-height: 40px;
+		background-image: url("../../images/tg1024.svg");
+		margin-right: 27.6px;
+	}
+
+	.social-item__icon-img_pint {
+		min-width: 40px;
+		min-height: 40px;
+		background-image: url("../../images/pint1024.svg");
+	}
+
+	.social-item__icon-img_stu {
+		min-width: 40px;
+		min-height: 40px;
+		background-image: url("../../images/stumbleupon1024.svg");
+	}
+
+	.footer-map {
+		min-width: 542px;
+	}
 }
