@@ -48,10 +48,43 @@
 
 @media (max-width:1440px) {
 	.reviews__title {
-		margin-bottom: 44px;
+		margin-bottom: 47px;
 	}
 
 	.user-review__text_pt {
 		padding-top: 20px;
+	}
+}
+
+@media (max-width:1228.80px) {
+	.reviews {
+		margin-bottom: 70px;
+	}
+
+	.reviews__title {
+		margin-bottom: 26px;
+	}
+
+	.user-review__photo_gradient {
+		bottom: 35px;
+	}
+
+	.user-review__text,
+	.user-review__name {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.user-review__photo {
+		margin-bottom: 21px;
+	}
+
+	.user-review__text {
+		max-width: 515px;
+		padding-top: 33px;
+	}
+
+	.user-review__photo_gradient {
+		bottom: 26px;
 	}
 }

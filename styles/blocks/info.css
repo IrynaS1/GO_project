@@ -26,8 +26,6 @@
 .list-one,
 .list-two,
 .list-three {
-	min-width: 380px;
-	min-height: 228px;
 	display: flex;
 	flex-direction: column;
 	margin-right: 20px;
@@ -67,6 +65,7 @@
 
 .list-two__item-text_bottom {
 	bottom: 6px;
+	left: 43px;
 }
 
 .list-one__item:hover,
@@ -82,24 +81,21 @@
 		margin-bottom: 95px;
 	}
 
-	.list-two {
-		padding-top: 70px;
+	.info__title {
+		margin-bottom: 42px;
 	}
 
-	.list-two__item-text_bottom {
-		bottom: 17px;
+	.list-two {
+		padding-top: 70px;
 	}
 
 	.list-one__item-text {
 		bottom: 38px;
 	}
 
-	.list-two__item-text {
-		bottom: 11px;
-	}
-
 	.list-three__item-text {
-		bottom: 38px;
+		bottom: 35px;
+		left: 49px;
 	}
 
 	.list-one__item-text,
@@ -111,5 +107,19 @@
 	.list-two__item-text_width {
 		white-space: pre-line;
 	}
+}
 
+@media (max-width:1228.80px) {
+	.info__title_pre-line {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.info__title {
+		margin-bottom: 36px;
+	}
+
+	.info {
+		margin-bottom: 70px;
+	}
 }

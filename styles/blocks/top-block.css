@@ -1,6 +1,5 @@
 .top-block {
 	max-height: 823px;
-	max-width: 1180px;
 	margin-bottom: 100px;
 	position: relative;
 }
@@ -83,8 +82,8 @@
 }
 
 .top-img {
-	min-width: 675px;
-	min-height: 762px;
+	max-width: 675px;
+	max-height: 762px;
 	position: relative;
 	left: 505px;
 	bottom: 615px;
@@ -155,4 +154,70 @@
 		left: 540px;
 		bottom: 90px;
 	}
+}
+
+@media (max-width:1228.80px) {
+	.top-block {
+		max-height: 552px;
+	}
+
+	.headline__main-title {
+		font-size: 120px;
+	}
+
+	.headline__subtitle {
+		font-size: 22px;
+	}
+
+	.benefit__one_color {
+		font-size: 80px;
+		line-height: 113px;
+	}
+
+	.benefits__one-text,
+	.benefits__two-text {
+		font-size: 26px;
+		line-height: 30px;
+	}
+
+	.benefit__two_color {
+		font-size: 60px;
+		line-height: 85px;
+	}
+
+	.benefit__two {
+		padding-top: 23px;
+	}
+
+	.benefits {
+		max-width: 360px;
+		margin-bottom: 80px;
+	}
+
+	.top-img {
+		max-width: 453px;
+		max-height: 520px;
+		left: 450px;
+		bottom: 480px;
+	}
+
+	.top-action__down-btn {
+		min-width: 67px;
+		min-height: 67px;
+	}
+
+	.top-action__down {
+		left: 415px;
+		bottom: 30px;
+	}
+
+	.top-action {
+		padding-left: 33px;
+	}
+
+	.top-action__btn {
+		font-size: 22px;
+		padding: 17px 48px;
+	}
+
 }

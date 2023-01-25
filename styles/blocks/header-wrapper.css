@@ -82,3 +82,26 @@
 		padding: 12px 34px 10px 32px;
 	}
 }
+
+@media (max-width:1228.80px) {
+	.header-wrapper {
+		margin-bottom: 30px;
+	}
+
+	.header__logo {
+		margin-right: 50px;
+	}
+
+	.header__navigation {
+		margin-right: 50px;
+	}
+
+	.header__nav-item {
+		font-size: 18px;
+	}
+
+	.header__button {
+		padding: 10px 26px 11px 26px;
+		font-size: 18px;
+	}
+}

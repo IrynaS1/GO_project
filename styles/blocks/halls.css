@@ -37,3 +37,24 @@
 		margin-bottom: 90px;
 	}
 }
+
+@media (max-width:1228.80px) {
+	.halls {
+		margin-bottom: 70px;
+	}
+
+	.halls__title {
+		margin-bottom: 37px;
+	}
+
+	.halls-list {
+		row-gap: 19px;
+	}
+
+	.hall__name {
+		font-size: 50px;
+		line-height: 59px;
+		left: 140px;
+		top: 94px;
+	}
+}

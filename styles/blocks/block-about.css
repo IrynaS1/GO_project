@@ -1,6 +1,11 @@
+.block-about {
+	padding-top: 100px;
+	margin-bottom: 100px;
+}
+
 .about-us {
 	display: flex;
-	margin-bottom: 100px;
+	max-height: 600px;
 }
 
 .about-us__title {
@@ -82,10 +87,6 @@ blockquote:before {
 }
 
 @media (max-width:1440px) {
-	.about-us {
-		margin-bottom: 95px;
-	}
-
 	.about-us__about-us-text {
 		margin-bottom: 0;
 	}
@@ -100,4 +101,51 @@ blockquote:before {
 		margin-bottom: 53px;
 	}
 
+	.about-us__author {
+		top: 235px;
+	}
+}
+
+@media (max-width:1228.80px) {
+	.block-about {
+		padding-top: 70px;
+		margin-bottom: 72px;
+	}
+
+	.about-us__about-us-text_ws {
+		margin-bottom: 37px;
+	}
+
+	.about-us__pic {
+		min-width: 420px;
+		min-height: 417px;
+		margin-right: 39.54px;
+	}
+
+	.about-us__about-us-text {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 37px;
+	}
+
+	.about-us__quote {
+		font-size: 30px;
+		line-height: 36px;
+		min-width: 0;
+		max-width: 380px;
+		white-space: normal;
+	}
+
+	.about-us__quote:after {
+		font-size: 30px;
+		line-height: 36px;
+	}
+
+	.about-us__author {
+		top: 180px;
+	}
+
+	.about-us__author-quote-image {
+		margin-right: 35px;
+	}
 }

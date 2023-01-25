@@ -8,3 +8,10 @@
 	text-align: center;
 	text-transform: uppercase;
 }
+
+@media (max-width:1228.80px) {
+	.titles {
+		font-size: 30px;
+		line-height: 40px;
+	}
+}
