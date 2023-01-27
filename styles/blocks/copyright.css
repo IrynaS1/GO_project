@@ -25,3 +25,9 @@
 		line-height: 16px;
 	}
 }
+
+@media (max-width:1024px) {
+	.copyright__text {
+		line-height: 22px;
+	}
+}

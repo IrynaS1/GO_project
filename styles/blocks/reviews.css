@@ -14,7 +14,36 @@
 }
 
 .user-review__photo {
+	content: "";
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-width: 280px;
+	min-height: 280px;
+	position: relative;
+}
+
+.user-review__photo_one {
+	background-image: url("../../images/review1.png");
 	margin-bottom: 7px;
+}
+
+.user-review__photo_two {
+	background-image: url("../../images/review2.png");
+	margin-bottom: 9px;
+}
+
+.user-review__photo_three {
+	background-image: url("../../images/review3.png");
+	margin-bottom: 10px;
+}
+
+.user-review__gradient {
+	content: "";
+	background-image: url("../../images/review_gradient.svg");
+	background-repeat: no-repeat;
+	min-width: 280px;
+	min-height: 280px;
+	position: absolute;
 }
 
 .user-review__author {
@@ -40,15 +69,13 @@
 	padding-bottom: 179px;
 }
 
-.user-review__photo_gradient {
-	position: absolute;
-	opacity: 0.9;
-	bottom: 28px;
-}
-
 @media (max-width:1440px) {
 	.reviews__title {
 		margin-bottom: 47px;
+	}
+
+	.user-review__photo_two {
+		margin-bottom: 12px;
 	}
 
 	.user-review__text_pt {
@@ -65,8 +92,22 @@
 		margin-bottom: 26px;
 	}
 
-	.user-review__photo_gradient {
-		bottom: 35px;
+	.user-review__photo {
+		min-width: 199px;
+		min-height: 199px;
+		margin-bottom: 21px;
+	}
+
+	.user-review__photo_one {
+		background-image: url("../../images/review1-1024.png");
+	}
+
+	.user-review__photo_two {
+		background-image: url("../../images/review2-1024.png");
+	}
+
+	.user-review__photo_three {
+		background-image: url("../../images/review3-1024.png");
 	}
 
 	.user-review__text,
@@ -75,16 +116,47 @@
 		line-height: 26px;
 	}
 
-	.user-review__photo {
-		margin-bottom: 21px;
-	}
-
 	.user-review__text {
 		max-width: 515px;
 		padding-top: 33px;
 	}
 
-	.user-review__photo_gradient {
-		bottom: 26px;
+	.user-review__gradient {
+		background-image: url("../../images/review_gradient1024.svg");
+		min-width: 199px;
+		min-height: 199px;
+		background-size: contain;
+	}
+
+	.user-review:not(:last-child) {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width:1024px) {
+	.reviews {
+		padding-left: 100px;
+		padding-right: 80px;
+		margin-bottom: 28px;
+	}
+
+	.user-review {
+		align-items: normal;
+		max-height: 260px;
+	}
+
+	.user-review__photo {
+		min-width: 172px;
+		min-height: 172px;
+		margin-bottom: 21px;
+	}
+
+	.user-review__gradient {
+		min-width: 172px;
+		min-height: 172px;
+	}
+
+	.user-review__author {
+		margin-right: 38px;
 	}
 }
