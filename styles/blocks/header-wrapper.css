@@ -6,6 +6,10 @@
 }
 
 .header__logo {
+	background-image: url("../../images/logo.svg");
+	background-repeat: no-repeat;
+	min-width: 120px;
+	min-height: 70px;
 	margin-right: 96px;
 }
 
@@ -101,7 +105,70 @@
 	}
 
 	.header__button {
-		padding: 10px 26px 11px 26px;
+		padding: 12px 24px 11px 24px;
 		font-size: 18px;
+	}
+}
+
+@media (max-width:1024px) {
+	.header-wrapper {
+		margin-bottom: 28px;
+	}
+
+	.header__logo {
+		background-image: url("../../images/logo1024.svg");
+		min-width: 87px;
+		min-height: 55px;
+		margin-right: 79px;
+	}
+
+	.header__navigation {
+		min-width: 425px;
+		margin-right: 88px;
+		padding-top: 14px;
+	}
+
+	.header__nav-list {
+		max-width: 425px;
+	}
+
+	.header__nav-item {
+		line-height: 22px;
+		letter-spacing: -1px;
+	}
+
+	.header__nav-item_halls {
+		max-width: 52px;
+	}
+
+	.nav-item_about-us {
+		max-width: 57px;
+	}
+
+	.header__nav-item_order {
+		max-width: 63px;
+	}
+
+	.header__nav-item_reviews {
+		max-width: 80px;
+	}
+
+	.header__nav-item_contacts {
+		max-width: 98px;
+	}
+
+	.header__nav-item:not(:last-child) {
+		margin-right: 23px;
+	}
+
+	.header__action {
+		min-width: 230px;
+		padding-top: 1px;
+	}
+
+	.header__button {
+		padding: 12px 27px 11px 21px;
+		border-radius: 8px;
+		line-height: 24px;
 	}
 }

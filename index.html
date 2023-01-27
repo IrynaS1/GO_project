@@ -15,27 +15,27 @@
 	<div class="wrapper">
 		<header>
 			<div class="header-wrapper">
-				<div class="header__logo">
-					<a href="#">
-						<img src="./images/logo.svg" alt="Логотип GO">
-					</a>
-				</div>
+				<a href="#">
+					<div class="header__logo">
+						<!--Фоновый рисунок - логотип-->
+					</div>
+				</a>
 				<div class="header__navigation">
 					<nav>
 						<ul class="header__nav-list">
-							<li class="header__nav-item">
+							<li class="header__nav-item header__nav-item_halls">
 								<a href="#halls">залы</a>
 							</li>
-							<li class="header__nav-item">
+							<li class="header__nav-item header__nav-item_about-us">
 								<a href="#about-us">о нас</a>
 							</li>
-							<li class="header__nav-item">
+							<li class="header__nav-item header__nav-item_order">
 								<a href="#order">бронь</a>
 							</li>
-							<li class="header__nav-item">
+							<li class="header__nav-item header__nav-item_reviews">
 								<a href="#reviews">отзывы</a>
 							</li>
-							<li class="header__nav-item">
+							<li class="header__nav-item header__nav-item_contacts">
 								<a href="#contacts">контакты</a>
 							</li>
 						</ul>
@@ -72,7 +72,7 @@
 				</div>
 
 				<div class="top-img">
-					<img src="./images/pic1.png" alt="Мужчина в VR-очках">
+					<!--Фоновый рисунок-->
 				</div>
 
 				<div class="top-action__down">
@@ -91,38 +91,40 @@
 					</div>
 					<div class="info-list">
 						<div class="list-one">
-							<div class="list-one__item list-one__item_mb">
-								<img src="./images/vr-glasses.png" alt="VR очки">
+							<div class="list-one__item list-one__item-img list-one__item_vr-glasses">
+								<!--Фоновый рисунок-->
 								<span class="list-one__item-text">VR очки</span>
 							</div>
-							<div class="list-one__item">
-								<img src="./images/table_games.png" alt="Настольные игры">
+							<div class="list-one__item list-one__item-img list-one__item_table-games">
+								<!--Фоновый рисунок-->
 								<span class="list-one__item-text">Настольные игры</span>
 							</div>
 						</div>
 
 						<div class="list-two">
-							<div class="list-two__item list-two__item_mb">
-								<img src="./images/audio.png" alt="Аудио-система 5.1 с отличным звуком">
-								<span class="list-two__item-text list-two__item-text_bottom list-two__item-text_width">
+							<div class="list-two__item list-two__item-img list-two__item_audio">
+								<!--Фоновый рисунок-->
+								<span class="list-two__item-text list-two__item-text_bottom list-two__item-text_audio">
 									Аудио-система 5.1
 									с отличным звуком
 								</span>
 							</div>
-							<div class="list-two__item">
-								<img src="./images/cinema.png" alt="Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko">
-								<span class="list-two__item-text list-two__item-text_bottom">Кино сервисы Netflix, IVI, MegoGo,
-									КиноПоиск, Okko</span>
+							<div class="list-two__item list-two__item-img list-two__item_cinema">
+								<!--Фоновый рисунок-->
+								<span class="list-two__item-text list-two__item-text_bottom list-two__item-text_cinema">
+									Кино сервисы Netflix,
+									IVI, MegoGo, КиноПоиск,
+									Okko</span>
 							</div>
 						</div>
 
 						<div class="list-three">
-							<div class="list-three__item list-three__item_mb">
-								<img src="./images/karaoke.png" alt="Караоке (4 микрофона)">
+							<div class="list-three__item list-three__item-img list-three__item_karaoke">
+								<!--Фоновый рисунок-->
 								<span class="list-three__item-text">Караоке (4 микрофона)</span>
 							</div>
-							<div class="list-three__item">
-								<img src="./images/play_station.png" alt="РlаyStаtiоn 5">
+							<div class="list-three__item list-three__item-img list-three__item_play-station">
+								<!--Фоновый рисунок-->
 								<span class="list-three__item-text">РlаyStаtiоn 5</span>
 							</div>
 						</div>
@@ -135,7 +137,7 @@
 			<section id="halls">
 				<div id="halls" class="halls">
 					<h2 class="titles halls__title">Наши залы</h2>
-					<!--Секция "Залы" (новая)-->
+
 					<div class="halls-list">
 						<div class="hall">
 							<a href="#">
@@ -175,19 +177,19 @@
 				<h3 class="order-block__title">Выбери зал</h3>
 
 				<div class="order-hall">
-					<div class="order-hall__items">
+					<div class="order-hall__items order-hall__items_vibes-hall">
 						<input type="radio" id="vibes_hall" name="halls" value="80`s vibes hall">
 						<label for="vibes_hall">80`S VIBES</label>
 					</div>
-					<div class="order-hall__items">
+					<div class="order-hall__items order-hall__items_sw-hall">
 						<input type="radio" id="star_wars_hall" name="halls" value="Star wars hall">
 						<label for="star_wars_hall">STAR WARS</label>
 					</div>
-					<div class="order-hall__items">
+					<div class="order-hall__items order-hall__items_ww-hall">
 						<input type="radio" id="wild_west_hall" name="halls" value="Wild west hall">
 						<label for="wild_west_hall">WILD WEST</label>
 					</div>
-					<div class="order-hall__items order-hall__items_pl">
+					<div class="order-hall__items order-hall__items_ns-hall">
 						<input type="radio" id="neon_style_hall" name="halls" value="Neon style hall">
 						<label for="neon_style_hall">NEON STYLE</label>
 					</div>
@@ -303,11 +305,11 @@
 					</div>
 					<div class="about-us__about-us-content">
 						<div class="about-us__about-us-text">
-							<p class="about-us__about-us-text 
-							about-us__about-us-text_mb">Для наших гостей мы создали концептуально новое
+							<p class="about-us__paragraph">Для наших гостей мы создали концептуально новое
 								игровое пространство виртуальной реальности
 								в центральной части города.</p>
-							<p class="about-us__about-us-text about-us__about-us-text_ws">Каждый день мы стараемся создавать
+							<p class="about-us__paragraph-two">
+								Каждый день мы стараемся создавать
 								для вас самую лучшую игровую атмосферу
 								и радовать Вас топовыми игровыми разработками
 								со всего мира.</p>
@@ -316,8 +318,9 @@
 							<div class="about-us__quote"> GAME OVER -
 								это место незабываемых впечатлений </div>
 							<div class="about-us__author">
-								<img src="./images/author.svg" alt="Фото автора цитаты Аркадия Абакшина"
-									class="about-us__author-quote-image">
+								<div class="about-us__author-quote-image">
+									<!--Фоновый рисунок-->
+								</div>
 								<p class="about-us__about-author">Аркадий Абакшин,
 									создатель игровой
 									территории GAME OVER
@@ -333,14 +336,14 @@
 			<h2 class="titles reviews__title">Отзывы посетителей</h2>
 			<div class="reviews">
 
-				<!--start first review-->
+				<!--Начало первого отзыва-->
 				<div class="user-review">
 					<div class="user-review__author">
-						<div class="user-review__photo">
-							<img src="./images/review1.png" alt="Отзыв посетителя">
-						</div>
-						<div class="user-review__photo user-review__photo_gradient">
-							<img src="./images/gradient_for_reviews_photo.png">
+						<div class="user-review__photo user-review__photo_one">
+							<!--Фоновый рисунок-->
+							<div class="user-review__gradient user-review__gradient_one">
+								<!--Фоновый рисунок-->
+							</div>
 						</div>
 						<div class="user-review__name">
 							<p>Макс Самойлов</p>
@@ -356,16 +359,16 @@
 						</p>
 					</div>
 				</div>
-				<!--end first review-->
+				<!--Конец первого отзыва-->
 
-				<!--start second review-->
+				<!--Начало второго отзыва-->
 				<div class="user-review">
 					<div class="user-review__author">
-						<div class="user-review__photo">
-							<img src="./images/review2.png" alt="Отзыв посетителя">
-						</div>
-						<div class="user-review__photo user-review__photo_gradient">
-							<img src="./images/gradient_for_reviews_photo.png">
+						<div class="user-review__photo user-review__photo_two">
+							<!--Фоновый рисунок-->
+							<div class="user-review__gradient user-review__gradient_two">
+								<!--Фоновый рисунок-->
+							</div>
 						</div>
 						<div class="user-review__name">
 							<p>Оксана Григорьева</p>
@@ -378,16 +381,16 @@
 							подобных заведений</p>
 					</div>
 				</div>
-				<!--end second review-->
+				<!--Конец второго отзыва-->
 
-				<!--start third review-->
+				<!--Начало третьего отзыва-->
 				<div class="user-review">
 					<div class="user-review__author">
-						<div class="user-review__photo">
-							<img src="./images/review3.png" alt="Отзыв посетителя">
-						</div>
-						<div class="user-review__photo user-review__photo_gradient">
-							<img src="./images/gradient_for_reviews_photo.png">
+						<div class="user-review__photo user-review__photo_three">
+							<!--Фоновый рисунок-->
+							<div class="user-review__gradient user-review__gradient_three">
+								<!--Фоновый рисунок-->
+							</div>
 						</div>
 						<div class="user-review__name">
 							<p>Никита Ященко</p>
@@ -400,7 +403,7 @@
 							комнаты в стиле <a href="#star-wars-hall">звездных войн</a>, попал в атмосферу космоса</p>
 					</div>
 				</div>
-				<!--end third review-->
+				<!--Конец третьего отзыва-->
 
 			</div>
 		</article>
@@ -479,7 +482,7 @@
 
 						</div>
 						<div class="footer-map">
-							<img src="./images/map.png" alt="Карта местоположения">
+							<!--Фоновый рисунок "Карта местоположения"-->
 						</div>
 					</div>
 				</div>

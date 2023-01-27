@@ -76,7 +76,7 @@
 	color: #000000;
 }
 
-.order-hall__items_pl label {
+.order-hall__items_ns-hall label {
 	padding-left: 20px;
 }
 
@@ -491,5 +491,80 @@
 	.order-block__action-text {
 		font-size: 18px;
 		line-height: 24px;
+	}
+}
+
+@media (max-width:1024px) {
+	.order-block {
+		padding: 60px;
+	}
+
+	.order-block__main-title {
+		padding-left: 65px;
+		padding-right: 65px;
+		margin-bottom: 40px;
+	}
+
+	.order-block__title {
+		margin-bottom: 28px;
+	}
+
+	.order-hall {
+		margin-bottom: 55px;
+	}
+
+	.order-hall__items_vibes-hall label {
+		padding-left: 28px;
+	}
+
+	.order-hall__items_sw-hall label {
+		padding-left: 22px;
+	}
+
+	.order-hall__items_ww-hall label {
+		padding-left: 23px;
+	}
+
+	.order-hall__items_ns-hall label {
+		padding-left: 16px;
+	}
+
+	.order-services {
+		gap: 30px;
+		padding-left: 2px;
+		padding-right: 63px;
+	}
+
+	.order-services__tgames {
+		padding-left: 6px;
+	}
+
+	.order-services__extra {
+		padding-left: 10px;
+	}
+
+	.scale {
+		margin-right: 17px;
+	}
+
+	.order-details__dt-date,
+	.order-details__dt-time,
+	.order-details__count {
+		padding-top: 13px;
+		padding-left: 17px;
+	}
+
+	.order-client__data-name,
+	.order-contacts__phone-input,
+	.order-contacts__email-input {
+		min-width: 251px;
+	}
+
+	.order-block__action {
+		padding-left: 650px;
+	}
+
+	.order-block__action-btn {
+		padding: 15px 45px;
 	}
 }

@@ -12,7 +12,6 @@
 	margin-bottom: 45px;
 }
 
-
 .about-us__pic {
 	min-width: 600px;
 	min-height: 596px;
@@ -27,6 +26,10 @@
 	line-height: 28px;
 	min-width: 500px;
 	margin-bottom: 59px;
+}
+
+.about-us__paragraph {
+	margin-bottom: 50px;
 }
 
 .about-us__quote {
@@ -68,13 +71,19 @@ blockquote:before {
 }
 
 .about-us__author {
+	display: flex;
+	gap: 27px;
 	position: absolute;
 	top: 232px;
 	left: 110px;
 }
 
 .about-us__author-quote-image {
-	margin-right: 27px;
+	content: "";
+	background-image: url("../../images/author.svg");
+	background-repeat: no-repeat;
+	min-width: 80px;
+	min-height: 80px;
 }
 
 .about-us__about-author {
@@ -87,16 +96,20 @@ blockquote:before {
 }
 
 @media (max-width:1440px) {
+	.about-us__title {
+		margin-bottom: 47px;
+	}
+
 	.about-us__about-us-text {
 		margin-bottom: 0;
 	}
 
-	.about-us__about-us-text_mb {
-		margin-bottom: 28px;
+	.about-us__paragraph {
+		margin-bottom: 1px;
 		white-space: pre-line;
 	}
 
-	.about-us__about-us-text_ws {
+	.about-us__paragraph-two {
 		white-space: pre-line;
 		margin-bottom: 53px;
 	}
@@ -112,7 +125,7 @@ blockquote:before {
 		margin-bottom: 72px;
 	}
 
-	.about-us__about-us-text_ws {
+	.about-us__paragraph-two {
 		margin-bottom: 37px;
 	}
 
@@ -147,5 +160,52 @@ blockquote:before {
 
 	.about-us__author-quote-image {
 		margin-right: 35px;
+	}
+}
+
+@media (max-width:1024px) {
+	.block-about {
+		padding-top: 68px;
+		margin-bottom: 86px;
+	}
+
+	.about-us__title {
+		margin-bottom: 25px;
+	}
+
+	.about-us__about-us-text {
+		margin-bottom: 25px;
+	}
+
+	.about-us__quote {
+		font-size: 28px;
+	}
+
+	blockquote:before {
+		line-height: 22px;
+	}
+
+	.about-us__quote {
+		top: 1px;
+		left: 28px;
+		letter-spacing: 1.1px;
+	}
+
+	.about-us__author-quote-image {
+		background-image: url("../../images/author1024.svg");
+		min-width: 70px;
+		min-height: 70px;
+		margin-right: 32px;
+	}
+
+	.about-us__author {
+		gap: 0;
+		top: 136px;
+		left: 117px;
+	}
+
+	.about-us__about-author {
+		line-height: 23px;
+		letter-spacing: -1.1px;
 	}
 }
