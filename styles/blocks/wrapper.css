@@ -72,3 +72,10 @@
 			padding-right: 60px;
 		}
 	}
+
+	@media (max-width:877.71px) {
+		.wrapper {
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+	}

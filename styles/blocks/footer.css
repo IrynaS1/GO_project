@@ -255,3 +255,47 @@
 		max-width: 238px;
 	}
 }
+
+@media (max-width:877.71px) {
+	.footer {
+		display: block;
+		margin-bottom: 75px;
+	}
+
+	.footer-address {
+		margin-right: 0;
+	}
+
+	.address-item__location,
+	.address-item__phone,
+	.address-item__email {
+		text-align: center;
+		margin-bottom: 27px;
+	}
+
+	.address-item__location:before {
+		right: 450px;
+		top: 0;
+	}
+
+	.address-item__phone:before {
+		right: 510px;
+	}
+
+	.address-item__email:before {
+		right: 530px;
+	}
+
+	.social-item {
+		padding-left: 270px;
+		margin-bottom: 30px;
+	}
+
+
+	.footer-map {
+		background-image: url("../../images/map768.png");
+		min-width: 688px;
+		background-position: center;
+	}
+
+}

@@ -5,6 +5,10 @@
 	margin-bottom: 50px;
 }
 
+.header__mob-navigation {
+	display: none;
+}
+
 .header__logo {
 	background-image: url("../../images/logo.svg");
 	background-repeat: no-repeat;
@@ -170,5 +174,38 @@
 		padding: 12px 27px 11px 21px;
 		border-radius: 8px;
 		line-height: 24px;
+	}
+}
+
+@media (max-width:877.71px) {
+	.header-wrapper {
+		padding-top: 32px;
+		margin-bottom: 30px;
+	}
+
+	.header__mob-navigation {
+		display: block;
+		padding-top: 18px;
+		margin-right: 159px;
+	}
+
+	.header__mobnav-img {
+		content: "";
+		background-image: url("../../images/menu768.svg");
+		background-repeat: no-repeat;
+		min-width: 54px;
+		min-height: 29px;
+	}
+
+	.header__navigation {
+		display: none;
+	}
+
+	.header__logo {
+		margin-right: 159px;
+	}
+
+	.header__button {
+		padding: 10px 26px 11px 26px;
 	}
 }

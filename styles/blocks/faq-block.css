@@ -124,3 +124,14 @@
 		padding-left: 5px;
 	}
 }
+
+@media (max-width:877.71px) {
+	.faq__text-item {
+		font-size: 18px;
+	}
+
+	.faq__item {
+		min-width: 688px;
+		padding: 0 54px 0 65px;
+	}
+}

@@ -15,3 +15,10 @@
 		line-height: 40px;
 	}
 }
+
+@media (max-width:877.71px) {
+	.titles {
+		font-size: 24px;
+		line-height: 36px;
+	}
+}

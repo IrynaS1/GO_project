@@ -568,3 +568,90 @@
 		padding: 15px 45px;
 	}
 }
+
+@media (max-width:877.71px) {
+	.order-block {
+		padding: 50px 40px;
+	}
+
+	.order-hall__items label {
+		font-size: 16px;
+		line-height: 20px;
+		top: 10px;
+		padding-bottom: 9px;
+	}
+
+	.order-hall__items input[type="radio"] {
+		width: 150px;
+		height: 38px;
+	}
+
+	.order-services {
+		flex-wrap: wrap;
+		gap: 60px;
+	}
+
+	.order-cart {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 52px 1fr;
+		grid-template-areas:
+			"order-details order-details"
+			"order-client order-contacts";
+		justify-items: start;
+		column-gap: 188px;
+		row-gap: 42px;
+	}
+
+	.order-details {
+		grid-area: order-details;
+		grid-column: 1 / 3;
+		display: flex;
+		gap: 187px;
+	}
+
+	.order-details {
+		padding-top: 0;
+	}
+
+	.order-details__dt-date {
+		margin-right: 14px;
+	}
+
+	.order-details__dt-date,
+	.order-details__dt-time,
+	.order-details__count {
+		padding-top: 12px;
+		padding-left: 20px;
+	}
+
+	.order-client {
+		grid-area: order-client;
+	}
+
+	.order-contacts {
+		grid-area: order-contacts;
+	}
+
+	.order-client__data-name {
+		min-width: 280px;
+	}
+
+	.order-contacts__phone-input,
+	.order-contacts__email-input {
+		min-width: 300px;
+	}
+
+	.order-block__action-text {
+		font-size: 22px;
+		line-height: 28px;
+	}
+
+	.order-block__action-btn {
+		padding: 16px 50px;
+	}
+
+	.order-block__action {
+		padding-left: 490px;
+	}
+}
