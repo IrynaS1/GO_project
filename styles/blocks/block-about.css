@@ -209,3 +209,34 @@ blockquote:before {
 		letter-spacing: -1.1px;
 	}
 }
+
+@media (max-width:877.71px) {
+	.block-about {
+		padding-top: 60px;
+		margin-bottom: 120px;
+	}
+
+	.about-us__pic {
+		min-width: 382px;
+		min-height: 380px;
+		margin-right: 28px;
+	}
+
+	.about-us__about-us-text {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.about-us__about-us-text {
+		min-width: 278px;
+	}
+
+	.about-us__paragraph {
+		white-space: normal;
+	}
+
+	.about-us__author {
+		top: 160px;
+		left: 100px;
+	}
+}
