@@ -356,3 +356,37 @@
 		display: none;
 	}
 }
+
+
+@media (max-width:768px) {
+	.headline__main-title {
+		letter-spacing: -8px;
+	}
+
+	.headline__subtitle {
+		padding-left: 70px;
+		letter-spacing: 0;
+	}
+
+	.top-img {
+		left: 280px;
+		bottom: 377px;
+	}
+
+	.benefit__two {
+		padding-top: 19px;
+		letter-spacing: 4.1px;
+	}
+
+	.benefit__two_color {
+		font-size: 30px;
+		padding-left: 0;
+	}
+
+	.top-action__btn {
+		padding: 8px 35px 11px 34px;
+		letter-spacing: 0;
+	}
+
+
+}

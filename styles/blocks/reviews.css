@@ -172,3 +172,44 @@
 		line-height: 26px;
 	}
 }
+
+@media (max-width:768px) {
+	.reviews {
+		margin-bottom: 25px;
+	}
+
+	.reviews__title {
+		margin-bottom: 30px;
+	}
+
+	.user-review {
+		max-height: 220px;
+	}
+
+	.user-review__photo {
+		min-width: 153px;
+		min-height: 153px;
+	}
+
+	.user-review__gradient {
+		min-width: 153px;
+		min-height: 153px;
+	}
+
+	.reviews {
+		padding-left: 62px;
+	}
+
+	.user-review__author {
+		margin-right: 16px;
+	}
+
+	.user-review__name {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.user-review__text {
+		line-height: 22px;
+	}
+}

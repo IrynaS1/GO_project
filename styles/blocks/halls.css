@@ -82,5 +82,24 @@
 		left: 140px;
 		max-width: 110px;
 	}
+}
 
+@media (max-width:768px) {
+	.halls {
+		margin-bottom: 59px;
+	}
+
+	.halls__title {
+		margin-bottom: 35px;
+	}
+
+	.halls-list {
+		row-gap: 12px;
+	}
+
+	.hall__name {
+		max-width: 140px;
+		left: 97px;
+		top: 63px;
+	}
 }
