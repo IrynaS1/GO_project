@@ -209,3 +209,18 @@
 		padding: 10px 26px 11px 26px;
 	}
 }
+
+@media (max-width:768px) {
+	.header__mobnav-img {
+		max-width: 54px;
+		max-height: 29px;
+	}
+
+	.header__button {
+		padding: 10px 24px 8px 24px;
+	}
+
+	.header__action {
+		padding-top: 10px;
+	}
+}

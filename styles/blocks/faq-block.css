@@ -135,3 +135,9 @@
 		padding: 0 54px 0 65px;
 	}
 }
+
+@media (max-width:768px) {
+	.faq__item {
+		padding: 0 66px 0 53px;
+	}
+}

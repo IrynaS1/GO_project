@@ -240,3 +240,64 @@ blockquote:before {
 		left: 100px;
 	}
 }
+
+@media (max-width:768px) {
+	.block-about {
+		margin-bottom: 235px;
+	}
+
+	.about-us__title {
+		margin-bottom: 30px;
+	}
+
+	.about-us__pic {
+		min-height: 0;
+		max-height: 380px;
+	}
+
+	.about-us__author-quote-image {
+		margin-right: 25px;
+	}
+
+	.about-us__about-us-content {
+		padding-top: 68px;
+	}
+
+	.about-us__paragraph {
+		margin-bottom: 22px;
+	}
+
+	.about-us__paragraph-two {
+		white-space: normal;
+		margin-bottom: 110px;
+	}
+
+	.about-us__quote {
+		font-size: 32px;
+		line-height: 36px;
+		max-width: 0;
+		min-width: 666px;
+	}
+
+	.about-us__quote {
+		left: -390px;
+		letter-spacing: 0;
+	}
+
+	blockquote:before {
+		position: absolute;
+		right: 671px;
+		font-size: 37px;
+	}
+
+	.about-us__author {
+		top: 99px;
+		left: -43px;
+	}
+
+	.about-us__about-author {
+		font-size: 18px;
+		line-height: 26px;
+		letter-spacing: 0;
+	}
+}

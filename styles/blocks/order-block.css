@@ -655,3 +655,119 @@
 		padding-left: 490px;
 	}
 }
+
+@media (max-width:768px) {
+	.order-block__main-title {
+		margin-bottom: 39px;
+	}
+
+	.order-hall {
+		margin-bottom: 49px;
+	}
+
+	.order-hall__items:not(:last-child) {
+		margin-right: 30px;
+	}
+
+	.order-hall__items label {
+		top: 12px;
+	}
+
+	.order-hall__items_vibes-hall label {
+		padding-left: 22px;
+	}
+
+	.order-hall__items_sw-hall label {
+		padding-left: 17px;
+	}
+
+	.order-hall__items_ww-hall label {
+		padding-left: 18px;
+	}
+
+	.order-hall__items_ns-hall label {
+		padding-left: 11px;
+	}
+
+	.order-block__title {
+		margin-bottom: 29px;
+	}
+
+	.scale {
+		transform: scale(3.3);
+		margin-right: 26px;
+	}
+
+	.order-services {
+		justify-content: baseline;
+		padding-left: 2px;
+		padding-right: 110px;
+		gap: 39px;
+		margin-bottom: 55px;
+	}
+
+	.order-services__consoles-title,
+	.order-services__tgames-title,
+	.order-services__extra-title {
+		margin-bottom: 30px;
+	}
+
+	.order-services__consoles-text,
+	.order-services__tgames-text,
+	.order-services__extra-text {
+		line-height: 25.3px;
+	}
+
+	.order-services__consoles-text {
+		padding-left: 12px;
+	}
+
+	.order-services__consoles-text:not(:last-child) {
+		margin-bottom: 35px;
+	}
+
+	.order-services__tgames-text:not(:last-child) {
+		margin-bottom: 35px;
+	}
+
+	.order-services__tgames label {
+		padding-left: 17px;
+	}
+
+	.order-services__extra {
+		padding-left: 0;
+	}
+
+	.order-services__extra label {
+		padding-left: 15px;
+	}
+
+	.order-services__extra-text:not(:last-child) {
+		margin-bottom: 38px;
+	}
+
+	.order-details {
+		gap: 103px;
+	}
+
+	.order-details__dt-date,
+	.order-details__dt-time,
+	.order-details__count {
+		padding-left: 15px;
+	}
+
+	.order-client__data:not(:last-child),
+	.order-contacts__phone {
+		margin-bottom: 16px;
+	}
+
+	.order-cart {
+		column-gap: 90px;
+		row-gap: 45px;
+	}
+
+	.order-block__action {
+		padding-left: 387px;
+	}
+
+}

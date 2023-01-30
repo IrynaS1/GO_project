@@ -327,3 +327,48 @@
 		background-image: url("../../images/play_station768.png");
 	}
 }
+
+@media (max-width:768px) {
+	.info {
+		margin-bottom: 60px;
+	}
+
+	.info__title {
+		padding-left: 57px;
+		padding-right: 59px;
+		margin-bottom: 29px;
+	}
+
+	.info__title_pre-line {
+		font-size: 24px;
+		line-height: 36px;
+		letter-spacing: 0;
+	}
+
+	.info-list__mob {
+		column-gap: 20px;
+		row-gap: 20px;
+	}
+
+	.list-one__item_vr-glasses,
+	.list-two__item_audio,
+	.list-three__item_karaoke {
+		margin-bottom: 0;
+	}
+
+	.list-one__item-text,
+	.list-three__item-text {
+		left: 30px;
+		bottom: 40px;
+	}
+
+	.list-two__item-text_bottom {
+		left: 30px;
+		bottom: 11px;
+	}
+
+	.list-two__item-text_cinema {
+		white-space: normal;
+		max-width: 280px;
+	}
+}
