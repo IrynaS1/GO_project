@@ -32,6 +32,10 @@
 	margin-bottom: 50px;
 }
 
+.about-us__mob-pic {
+	display: none;
+}
+
 .about-us__quote {
 	font-style: normal;
 	font-weight: 400;
@@ -299,5 +303,96 @@ blockquote:before {
 		font-size: 18px;
 		line-height: 26px;
 		letter-spacing: 0;
+	}
+}
+
+@media (max-width:320px) {
+	.block-about {
+		padding-top: 28px;
+		margin-bottom: 192px;
+	}
+
+	.about-us__title {
+		margin-bottom: 15px;
+	}
+
+	.about-us {
+		display: block;
+		max-height: 620px;
+	}
+
+	.about-us__pic {
+		display: none;
+	}
+
+	.about-us__about-us-content {
+		padding-top: 0;
+		margin-bottom: 15px;
+	}
+
+	.about-us__about-us-text {
+		min-width: 0;
+		max-width: 265px;
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.about-us__paragraph {
+		margin-bottom: 15px;
+	}
+
+	.about-us__paragraph-two {
+		margin-bottom: 0;
+	}
+
+	.about-us__mob-pic {
+		display: block;
+		max-width: 280px;
+		max-height: 280px;
+		margin-bottom: 20px;
+	}
+
+	.about-us__about-us-text {
+		margin-bottom: 15px;
+	}
+
+	.about-us__quote {
+		font-size: 18px;
+		line-height: 26px;
+		min-width: 265px;
+	}
+
+	.about-us__quote {
+		left: 15px;
+	}
+
+	blockquote:before {
+		right: 270px;
+		font-size: 18px;
+	}
+
+	.about-us__quote:after {
+		position: absolute;
+		font-size: 18px;
+		bottom: 0.5px;
+	}
+
+	.about-us__author-quote-image {
+		background-image: url("../../images/author_quote320.png");
+		min-width: 56px;
+		min-height: 56px;
+		margin-right: 11px;
+	}
+
+	.about-us__author {
+		top: 87px;
+		left: 0;
+	}
+
+	.about-us__about-author {
+		padding-top: 5px;
+		font-size: 12px;
+		line-height: 16px;
+		min-width: 213px;
 	}
 }

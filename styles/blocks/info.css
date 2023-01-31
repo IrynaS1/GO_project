@@ -372,3 +372,91 @@
 		max-width: 280px;
 	}
 }
+
+@media (max-width:320px) {
+	.info {
+		margin-bottom: 32px;
+	}
+
+	.info__title_pre-line {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.info__title {
+		padding-left: 3px;
+		padding-right: 5px;
+		margin-bottom: 14px;
+	}
+
+	.info-list__mob {
+		column-gap: 10px;
+		row-gap: 10px;
+	}
+
+	.list-one__item-img,
+	.list-two__item-img,
+	.list-three__item-img {
+		min-width: 135px;
+		min-height: 75px;
+	}
+
+	.list-one__item_vr-glasses {
+		background-image: url("../../images/vr-glasses320.png");
+	}
+
+	.list-two__item_audio {
+		background-image: url("../../images/audio320.png");
+	}
+
+	.list-three__item_karaoke {
+		background-image: url("../../images/karaoke320.png");
+	}
+
+	.list-one__item_table-games {
+		background-image: url("../../images/table_games320.png");
+		max-height: 75px;
+	}
+
+	.list-two__item_cinema {
+		background-image: url("../../images/cinema320.png");
+	}
+
+	.list-three__item_play-station {
+		background-image: url("../../images/play_station320.png");
+	}
+
+	.list-one__item-text,
+	.list-two__item-text,
+	.list-three__item-text {
+		max-width: 110px;
+	}
+
+	.list-one__item-text,
+	.list-two__item-text,
+	.list-three__item-text {
+		font-size: 10px;
+		line-height: 14px;
+	}
+
+	.list-one__item-text,
+	.list-three__item-text {
+		left: 10px;
+		bottom: 29px;
+	}
+
+	.list-two__item-text_cinema {
+		left: 10px;
+		bottom: 2px;
+	}
+
+	.list-two__item-text_audio {
+		left: 10px;
+		bottom: 16px;
+	}
+
+	.list-three__item-text_karaoke {
+		bottom: 16px;
+		white-space: pre-line;
+	}
+}

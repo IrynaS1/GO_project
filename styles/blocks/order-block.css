@@ -769,5 +769,215 @@
 	.order-block__action {
 		padding-left: 387px;
 	}
+}
 
+@media (max-width:320px) {
+	.order-block {
+		padding: 32px 20px;
+	}
+
+	.order-block__main-title {
+		padding-left: 0;
+		padding-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.order-block__title {
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 13px;
+	}
+
+	.order-hall {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas:
+			"hall-vibes hall-sw"
+			"hall-ww hall-ns";
+		column-gap: 20px;
+		row-gap: 10px;
+		margin-bottom: 28px;
+	}
+
+	.hall-vibes {
+		grid-area: hall-vibes;
+	}
+
+	.hall-sw {
+		grid-area: hall-sw;
+	}
+
+	.hall-ww {
+		grid-area: hall-ww;
+	}
+
+	.hall-ns {
+		grid-area: hall-ns;
+	}
+
+	.order-hall__items:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.order-hall__items input[type="radio"] {
+		width: 130px;
+		height: 30px;
+		border-radius: 4px;
+	}
+
+	.order-hall__items label {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.order-hall__items label {
+		top: 8px;
+	}
+
+	.order-hall__items_vibes-hall label {
+		padding-left: 18px;
+	}
+
+	.order-hall__items_sw-hall label {
+		padding-left: 14px;
+	}
+
+
+	.order-hall__items_ww-hall label {
+		padding-left: 16px;
+	}
+
+	.order-services {
+		display: block;
+		padding-left: 0;
+		padding-right: 10px;
+		margin-bottom: 31px;
+	}
+
+	.order-services__consoles,
+	.order-services__tgames {
+		margin-bottom: 30px;
+	}
+
+	.order-services__consoles-title,
+	.order-services__tgames-title,
+	.order-services__extra-title {
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 23px;
+	}
+
+	.scale {
+		transform: scale(2.5);
+		margin-right: 25px;
+	}
+
+	.order-services__consoles-text,
+	.order-services__tgames-text,
+	.order-services__extra-text {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	.order-services__consoles-text {
+		padding-left: 6px;
+	}
+
+	.order-services__consoles-text:not(:last-child) {
+		margin-bottom: 27px;
+	}
+
+	.order-services__tgames-text:not(:last-child) {
+		margin-bottom: 32px;
+	}
+
+	.order-services__tgames {
+		padding-left: 0;
+	}
+
+	.order-services__tgames label {
+		padding-left: 10px;
+	}
+
+	.order-services__extra-text:not(:last-child) {
+		margin-bottom: 35px;
+	}
+
+	.order-services__extra label {
+		padding-left: 10px;
+	}
+
+	.order-block__title_order {
+		margin-bottom: 24px;
+	}
+
+	.order-cart {
+		display: block;
+		margin-bottom: 35px;
+	}
+
+	.order-details__dt-date,
+	.order-details__dt-time {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.order-details {
+		display: block;
+		margin-bottom: 38px;
+	}
+
+	.order-details,
+	.order-client {
+		margin-right: 0;
+	}
+
+	.order-client__data-text,
+	.order-contacts__phone-text {
+		margin-bottom: 0;
+	}
+
+	.order-details__dt {
+		margin-bottom: 0;
+	}
+
+	.order-details__dt {
+		max-width: 280px;
+		margin-bottom: 15px;
+	}
+
+	.order-details__count {
+		min-width: 280px;
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.order-client__data:not(:last-child),
+	.order-contacts__phone {
+		margin-bottom: 18px;
+	}
+
+	.order-client {
+		margin-bottom: 40px;
+	}
+
+	.order-contacts__phone-input,
+	.order-contacts__email-input {
+		min-width: 280px;
+	}
+
+	.order-block__action {
+		padding-left: 0;
+	}
+
+	.order-block__action-btn {
+		padding: 17px 58px;
+		border-radius: 4px;
+	}
+
+	.order-block__action-text {
+		font-size: 18px;
+		line-height: 26px;
+	}
 }
