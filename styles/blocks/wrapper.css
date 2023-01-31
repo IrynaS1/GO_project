@@ -79,3 +79,17 @@
 			padding-right: 40px;
 		}
 	}
+
+	@media (max-width:614.40px) {
+		.wrapper {
+			padding-left: 167px;
+			padding-right: 167px;
+		}
+	}
+
+	@media (max-width:320px) {
+		.wrapper {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}

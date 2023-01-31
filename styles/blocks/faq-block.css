@@ -141,3 +141,33 @@
 		padding: 0 66px 0 53px;
 	}
 }
+
+@media (max-width:320px) {
+	.faq-block__title {
+		margin-bottom: 15px;
+	}
+
+	.faq__item {
+		min-width: 280px;
+		min-height: 46px;
+		padding: 7px 13px 7px 10px;
+		margin-bottom: 10px;
+	}
+
+	.faq__text-item {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.faq__item-btn {
+		min-width: 30px;
+		min-height: 30px;
+		border: 1px solid var(--color-three, #440F51);
+		background-image: url("../../images/plus_purple320.png");
+	}
+
+	.faq__item:nth-child(2n) {
+		color: #1C1A1A;
+		background-color: var(--color-two, #FFFFFF);
+	}
+}

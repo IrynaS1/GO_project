@@ -73,3 +73,9 @@
 		padding: 12px 40px 19px 40px;
 	}
 }
+
+@media (max-width:320px) {
+	.footer-wrapper {
+		padding: 7px 20px 24px 20px;
+	}
+}

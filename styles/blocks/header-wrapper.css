@@ -224,3 +224,32 @@
 		padding-top: 10px;
 	}
 }
+
+@media (max-width:320px) {
+	.header-wrapper {
+		padding-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.header__mob-navigation {
+		padding-top: 15px;
+		margin-right: 150px;
+	}
+
+	.header__mobnav-img {
+		background-image: url("../../images/menu320.svg");
+		max-width: 39px;
+		max-height: 20px;
+	}
+
+	.header__logo {
+		background-image: url("../../images/logo320.svg");
+		min-width: 66px;
+		min-height: 42px;
+		margin-right: 0;
+	}
+
+	.header__action {
+		display: none;
+	}
+}

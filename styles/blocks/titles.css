@@ -22,3 +22,10 @@
 		line-height: 36px;
 	}
 }
+
+@media (max-width:320px) {
+	.titles {
+		font-size: 14px;
+		line-height: 18px;
+	}
+}

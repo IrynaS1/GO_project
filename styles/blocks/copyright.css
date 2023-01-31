@@ -38,3 +38,32 @@
 		line-height: 16px;
 	}
 }
+
+@media (max-width:768px) {
+	.social-item {
+		padding-left: 225px;
+	}
+}
+
+@media (max-width:320px) {
+	.copyright {
+		display: block;
+	}
+
+	.copyright__text {
+		font-size: 12px;
+		line-height: 16px;
+		text-align: center;
+	}
+
+	.copyright__text:not(:last-child) {
+		margin-bottom: 19px;
+	}
+
+	.copyright__text_w {
+		width: 280px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: center;
+	}
+}

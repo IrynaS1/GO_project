@@ -387,6 +387,75 @@
 		padding: 8px 35px 11px 34px;
 		letter-spacing: 0;
 	}
+}
 
+@media (max-width:320px) {
+	.top-block {
+		max-height: 200px;
+		margin-bottom: 48px;
+	}
 
+	.headline__main-title {
+		font-size: 35px;
+		line-height: 100%;
+		letter-spacing: -3px;
+		margin-bottom: 0;
+	}
+
+	.headline {
+		margin-bottom: 6px;
+	}
+
+	.top-img {
+		background-image: url("../../images/pic1-320.svg");
+		max-width: 161px;
+		min-height: 179px;
+		left: 118px;
+		bottom: 158px;
+	}
+
+	.headline__subtitle {
+		font-size: 10px;
+		line-height: 14px;
+		padding-left: 20px;
+	}
+
+	.benefits {
+		max-width: 139px;
+		margin-bottom: 30px;
+	}
+
+	.benefits__one {
+		margin-right: 20px;
+		max-width: 65px;
+	}
+
+	.benefit__one_color {
+		font-size: 26px;
+		line-height: 37px;
+	}
+
+	.benefits__one-text,
+	.benefits__two-text {
+		font-size: 10px;
+		line-height: 11px;
+	}
+
+	.benefit__two {
+		padding-top: 12px;
+		letter-spacing: 1.9px;
+	}
+
+	.benefit__two_color {
+		padding-left: 5px;
+		border-radius: 4px;
+		font-size: 16px;
+		line-height: 28px;
+	}
+
+	.top-action__btn {
+		padding: 6px 13px 7px 12px;
+		font-size: 10px;
+		line-height: 12px;
+	}
 }

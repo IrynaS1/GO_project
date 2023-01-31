@@ -103,3 +103,34 @@
 		top: 63px;
 	}
 }
+
+@media (max-width:320px) {
+	.halls {
+		margin-bottom: 28px;
+	}
+
+	.halls__title {
+		margin-bottom: 15px;
+	}
+
+	.halls-list {
+		display: block;
+	}
+
+	.hall {
+		max-width: 280px;
+		max-height: 168px;
+	}
+
+	.hall:not(:last-child) {
+		margin-bottom: 10px;
+	}
+
+	.hall__name {
+		max-width: 84px;
+		top: 50px;
+		font-size: 26px;
+		line-height: 34px;
+	}
+
+}
