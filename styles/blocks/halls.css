@@ -132,5 +132,38 @@
 		font-size: 26px;
 		line-height: 34px;
 	}
+}
 
+@media (max-width:512px) {
+	.hall {
+		max-width: 310px;
+		max-height: 190px;
+	}
+
+	.hall__name {
+		left: 120px;
+	}
+}
+
+@media (max-width:384px) {
+	.hall {
+		max-width: 280px;
+		max-height: 168px;
+	}
+
+	.hall__name {
+		left: 100px;
+	}
+}
+
+@media (max-width:320px) {
+	.hall__name {
+		left: 98px;
+	}
+}
+
+@media (max-width:307.20px) {
+	.halls {
+		max-width: 280px;
+	}
 }

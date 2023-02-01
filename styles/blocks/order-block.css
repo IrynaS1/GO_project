@@ -981,3 +981,60 @@
 		line-height: 26px;
 	}
 }
+
+@media (max-width:512px) {
+	.order-block {
+		padding: 32px 100px;
+	}
+
+	.order-hall {
+		column-gap: 45px;
+	}
+
+	.order-cart {
+		padding-left: 13px;
+	}
+
+	.order-block__action {
+		padding-left: 13px;
+	}
+}
+
+@media (max-width:384px) {
+	.order-block {
+		padding: 32px 50px;
+	}
+
+	.order-hall {
+		column-gap: 19px;
+	}
+
+	.order-cart {
+		padding-left: 0;
+	}
+
+	.order-block__action {
+		padding-left: 0;
+	}
+}
+
+@media (max-width:320px) {
+	.order-block {
+		padding: 32px 20px;
+	}
+}
+
+@media (max-width:307.20px) {
+	.order-block {
+		padding: 32px 10px;
+	}
+
+	.order-hall {
+		column-gap: 7px;
+	}
+
+	.order-services {
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+}

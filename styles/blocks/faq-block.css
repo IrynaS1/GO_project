@@ -182,3 +182,11 @@
 		background-image: url("../../images/plus_purple320.png");
 	}
 }
+
+@media (max-width:307.20px) {
+	.faq__item {
+		min-width: 0;
+		max-width: 280px;
+		padding: 7px 13px 7px 10px;
+	}
+}
