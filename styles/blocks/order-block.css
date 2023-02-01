@@ -57,6 +57,10 @@
 	transition-duration: 1s;
 }
 
+.order-hall__items label:active {
+	color: var(--color-two, #FFFFFF);
+}
+
 .order-hall__items {
 	position: relative;
 }
