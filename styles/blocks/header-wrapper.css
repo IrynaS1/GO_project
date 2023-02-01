@@ -217,7 +217,7 @@
 	}
 
 	.header__button {
-		padding: 10px 24px 8px 24px;
+		padding: 7px 24px 8px 24px;
 	}
 
 	.header__action {
@@ -251,5 +251,11 @@
 
 	.header__action {
 		display: none;
+	}
+}
+
+@media (max-width:307.20px) {
+	.header-wrapper {
+		max-width: 280px;
 	}
 }

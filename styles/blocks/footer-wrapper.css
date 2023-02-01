@@ -79,3 +79,27 @@
 		padding: 7px 167px 24px 167px;
 	}
 }
+
+@media (max-width:512px) {
+	.footer-wrapper {
+		padding: 7px 100px 24px 100px;
+	}
+}
+
+@media (max-width:384px) {
+	.footer-wrapper {
+		padding: 7px 50px 24px 50px;
+	}
+}
+
+@media (max-width:320px) {
+	.footer-wrapper {
+		padding: 7px 20px 24px 20px;
+	}
+}
+
+@media (max-width:307.20px) {
+	.footer-wrapper {
+		padding: 7px 10px 24px 10px;
+	}
+}

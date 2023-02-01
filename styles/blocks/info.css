@@ -460,3 +460,22 @@
 		white-space: pre-line;
 	}
 }
+
+@media (max-width:307.20px) {
+	.info {
+		max-width: 280px;
+	}
+
+	.info-list__mob {
+		max-width: 280px;
+		column-gap: 40px;
+		justify-items: legacy;
+	}
+
+	.list-one__item-img,
+	.list-two__item-img,
+	.list-three__item-img {
+		min-width: 120px;
+		min-height: 60px;
+	}
+}

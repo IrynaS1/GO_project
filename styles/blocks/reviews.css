@@ -280,3 +280,15 @@
 		padding-top: 15px;
 	}
 }
+
+@media (max-width:512px) {
+	.user-review__text {
+		max-width: 310px;
+	}
+}
+
+@media (max-width:512px) {
+	.user-review__text {
+		max-width: 280px;
+	}
+}
