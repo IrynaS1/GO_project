@@ -39,13 +39,9 @@
 	}
 }
 
-@media (max-width:768px) {
-	.social-item {
-		padding-left: 225px;
-	}
-}
+@media (max-width:768px) {}
 
-@media (max-width:320px) {
+@media (max-width:614.40px) {
 	.copyright {
 		display: block;
 	}

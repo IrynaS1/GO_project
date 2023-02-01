@@ -112,6 +112,18 @@
 }
 
 @media (max-width:1024px) {
+	.faq__item-btn {
+		min-width: 46px;
+		min-height: 46px;
+		border: 1px solid var(--color-three, #440F51);
+		background-image: url("../../images/plus_purple1024.png");
+	}
+
+	.faq__item:nth-child(2n) {
+		color: #1C1A1A;
+		background-color: var(--color-two, #FFFFFF);
+	}
+
 	.faq__text-item_second {
 		padding-left: 5px;
 	}
@@ -137,12 +149,16 @@
 }
 
 @media (max-width:768px) {
+	.faq__item-btn {
+		background-image: url("../../images/plus_purple768.png");
+	}
+
 	.faq__item {
 		padding: 0 66px 0 53px;
 	}
 }
 
-@media (max-width:320px) {
+@media (max-width:614.40px) {
 	.faq-block__title {
 		margin-bottom: 15px;
 	}
@@ -164,10 +180,5 @@
 		min-height: 30px;
 		border: 1px solid var(--color-three, #440F51);
 		background-image: url("../../images/plus_purple320.png");
-	}
-
-	.faq__item:nth-child(2n) {
-		color: #1C1A1A;
-		background-color: var(--color-two, #FFFFFF);
 	}
 }

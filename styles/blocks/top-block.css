@@ -389,7 +389,7 @@
 	}
 }
 
-@media (max-width:320px) {
+@media (max-width:614.40px) {
 	.top-block {
 		max-height: 200px;
 		margin-bottom: 48px;
@@ -457,5 +457,7 @@
 		padding: 6px 13px 7px 12px;
 		font-size: 10px;
 		line-height: 12px;
+		border-radius: 4px;
+		border: none;
 	}
 }

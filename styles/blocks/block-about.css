@@ -306,7 +306,7 @@ blockquote:before {
 	}
 }
 
-@media (max-width:320px) {
+@media (max-width:614.40px) {
 	.block-about {
 		padding-top: 28px;
 		margin-bottom: 192px;
