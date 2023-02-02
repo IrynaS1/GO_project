@@ -1,0 +1,12 @@
+	.back-button {
+		margin-bottom: 20px;
+	}
+
+	.back-button__text {
+		font-family: 'Arial';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 28px;
+		color: var(--color-two, #FFFFFF);
+	}

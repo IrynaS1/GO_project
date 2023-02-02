@@ -1,0 +1,27 @@
+@import url("../style.css");
+
+@import url("../variables.css");
+
+@import url("./styles_halls/wrapper.css");
+
+@import url("./styles_halls/header.css");
+
+@import url("./styles_halls/back-button.css");
+
+@import url("./styles_halls/banner-container.css");
+
+@import url("./styles_halls/description.css");
+
+@import url("./styles_halls/title.css");
+
+@import url("./styles_halls/room.css");
+
+@import url("./styles_halls/orther-rooms.css");
+
+@import url("./styles_halls/footer-color.css");
+
+@import url("./styles_halls/footer-wrapper.css");
+
+@import url("./styles_halls/footer.css");
+
+@import url("./styles_halls/copyright.css");
