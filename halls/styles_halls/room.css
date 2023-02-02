@@ -51,3 +51,22 @@
 .room-block__description-text_mb {
 	margin-bottom: 10px;
 }
+
+@media (max-width:1440px) {
+	.room-block__description_vibes {
+		padding-top: 135px;
+	}
+
+	.room-block__description_wild-west,
+	.room-block__description_star-wars {
+		padding-top: 110px;
+	}
+
+	.room-block__description_neon-style {
+		padding-top: 121px;
+	}
+
+	.room-block__description-text_mb {
+		margin-bottom: 15px;
+	}
+}

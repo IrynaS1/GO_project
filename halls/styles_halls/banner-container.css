@@ -50,3 +50,83 @@
 	text-transform: uppercase;
 	letter-spacing: -6px;
 }
+
+@media (max-width:4608px) {
+	.banner-container {
+		padding-left: 1650px;
+		padding-right: 1650px;
+	}
+}
+
+@media (max-width:3072px) {
+	.banner-container {
+		padding-left: 900px;
+		padding-right: 900px;
+	}
+}
+
+@media (max-width:2304px) {
+	.banner-container {
+		padding-left: 520px;
+		padding-right: 520px;
+	}
+}
+
+@media (max-width:2048px) {
+	.banner-container {
+		padding-left: 400px;
+		padding-right: 400px;
+	}
+}
+
+@media (max-width:1920px) {
+	.banner-container {
+		padding-left: 330px;
+		padding-right: 330px;
+	}
+}
+
+@media (max-width:1706.67px) {
+	.banner-container {
+		padding-left: 220px;
+		padding-right: 220px;
+	}
+}
+
+@media (max-width:1536px) {
+	.banner-container {
+		padding-left: 140px;
+		padding-right: 140px;
+	}
+}
+
+@media (max-width:1440px) {
+	.banner-container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.banner__title {
+		top: 338px;
+	}
+
+	.banner__title_vibes {
+		left: 475px;
+	}
+
+	.banner__title_wild-west {
+		left: 460px;
+	}
+
+	.banner__title_star-wars {
+		left: 450px;
+	}
+
+	.banner__title_neon-style {
+		left: 428px;
+	}
+
+	.banner__title-text {
+		letter-spacing: normal;
+	}
+}

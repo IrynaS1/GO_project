@@ -16,6 +16,12 @@
 	text-align: right;
 }
 
+@media (max-width:1440px) {
+	.copyright {
+		padding-bottom: 40px;
+	}
+}
+
 @media (max-width:1228.80px) {
 	.copyright {
 		padding-bottom: 0;
@@ -25,13 +31,6 @@
 		line-height: 16px;
 	}
 }
-
-@media (max-width:1024px) {
-	.copyright__text {
-		line-height: 22px;
-	}
-}
-
 
 @media (max-width:1024px) {
 	.copyright__text {
