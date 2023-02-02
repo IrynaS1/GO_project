@@ -48,3 +48,60 @@
 	text-align: center;
 	text-transform: uppercase;
 }
+
+@media (max-width:4608px) {
+	.other-rooms__items {
+		gap: 60px;
+	}
+}
+
+@media (max-width:3072px) {
+	.other-rooms__items {
+		gap: 50px;
+	}
+}
+
+@media (max-width:2048px) {
+	.other-rooms__items {
+		gap: 40px;
+	}
+}
+
+@media (max-width:1920px) {
+	.other-rooms__items {
+		gap: 48px;
+	}
+}
+
+@media (max-width:1706.67px) {
+	.other-rooms__items {
+		gap: 52px;
+	}
+}
+
+@media (max-width:1536px) {
+	.other-rooms__items {
+		gap: 50px;
+	}
+}
+
+@media (max-width:1440px) {
+	.other-rooms__items {
+		gap: 20px;
+	}
+
+	.other-rooms__item-text {
+		top: 80px;
+		left: 140px;
+	}
+
+	.other-rooms__item-text_width {
+		display: inline;
+		max-width: 100px;
+	}
+
+	.other-rooms__item-text_position {
+		top: 100px;
+		left: 110px;
+	}
+}
