@@ -4,6 +4,10 @@
 	margin-bottom: 100px;
 }
 
+.reviews__title {
+	margin-bottom: 47px;
+}
+
 .user-review {
 	display: flex;
 	align-items: center;
@@ -70,10 +74,6 @@
 }
 
 @media (max-width:1440px) {
-	.reviews__title {
-		margin-bottom: 47px;
-	}
-
 	.user-review__photo_two {
 		margin-bottom: 12px;
 	}
