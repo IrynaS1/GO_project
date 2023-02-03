@@ -1,4 +1,4 @@
-.orther-rooms {
+.other-rooms {
 	margin-bottom: 100px;
 }
 
@@ -103,5 +103,203 @@
 	.other-rooms__item-text_position {
 		top: 100px;
 		left: 110px;
+	}
+}
+
+@media (max-width:1396.36px) {
+	.other-rooms__items {
+		gap: 30px;
+	}
+
+	.other-rooms__item-text_width {
+		max-width: 80px;
+	}
+
+	.other-rooms__item-text {
+		top: 50px;
+		left: 110px;
+	}
+
+	.other-rooms__item-text {
+		top: 80px;
+		left: 145px;
+	}
+
+	.other-rooms__item-text_position {
+		top: 100px;
+		left: 110px;
+	}
+}
+
+@media (max-width:1228.80px) {
+	.other-rooms__item {
+		min-width: 325px;
+		min-height: 196px;
+	}
+
+	.other-rooms__item-text {
+		top: 70px;
+		left: 115px;
+	}
+
+	.other-rooms__item-text_position {
+		top: 80px;
+		left: 85px;
+	}
+}
+
+@media (max-width:1024px) {
+	.other-rooms {
+		margin-bottom: 70px;
+	}
+
+	.other-rooms__title {
+		margin-bottom: 36px;
+	}
+
+	.other-rooms__item {
+		min-width: 288px;
+		min-height: 172px;
+	}
+
+	.other-rooms__items {
+		gap: 20px;
+	}
+
+	.other-rooms__item-text {
+		top: 50px;
+		left: 102px;
+	}
+
+	.other-rooms__item-text_position {
+		top: 70px;
+		left: 60px;
+	}
+}
+
+@media (max-width:877.71px) {
+	.other-rooms__items {
+		gap: 19px;
+	}
+
+	.other-rooms__item {
+		min-width: 250px;
+		min-height: 150px;
+	}
+
+	.other-rooms__item-text {
+		top: 40px;
+		left: 80px;
+	}
+
+	.other-rooms__item-text_position {
+		top: 60px;
+		left: 50px;
+	}
+}
+
+@media (max-width:768px) {
+	.other-rooms {
+		margin-bottom: 58px;
+	}
+
+	.other-rooms__title {
+		margin-bottom: 30px;
+	}
+
+	.other-rooms__items {
+		gap: 8px;
+	}
+
+	.other-rooms__item {
+		min-width: 224px;
+		min-height: 134px;
+	}
+
+	.other-rooms__item-text {
+		font-size: 20px;
+	}
+
+	.other-rooms__item-text {
+		top: 43px;
+		left: 71px;
+	}
+
+	.other-rooms__item-text_position {
+		top: 55px;
+		left: 68px;
+	}
+}
+
+@media (max-width:614.40px) {
+	.other-rooms {
+		margin-bottom: 30px;
+	}
+
+	.other-rooms__title {
+		margin-bottom: 15px;
+	}
+
+	.other-rooms__items {
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	.other-rooms__item {
+		background-size: cover;
+	}
+
+	.other-rooms__item-text {
+		top: 43px;
+		left: 105px;
+	}
+
+	.other-rooms__item-text_position {
+		left: 85px;
+	}
+}
+
+@media (max-width:512px) {
+	.other-rooms__item-text {
+		left: 115px;
+	}
+
+	.other-rooms__item-text_position {
+		top: 52px;
+		left: 105px;
+	}
+}
+
+@media (max-width:384px) {
+	.other-rooms__item-text {
+		left: 100px;
+	}
+
+	.other-rooms__item-text_position {
+		left: 90px;
+	}
+}
+
+@media (max-width:320px) {
+	.other-rooms__item {
+		min-width: 280px;
+		min-height: 140px;
+	}
+
+	.other-rooms__item-text {
+		max-width: 61px;
+		left: 110px;
+		top: 45px;
+	}
+}
+
+@media (max-width:307.20px) {
+	.other-rooms__item {
+		background-size: contain;
+		background-position: center;
+	}
+
+	.other-rooms__item-text {
+		left: 115px;
 	}
 }

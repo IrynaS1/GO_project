@@ -193,7 +193,7 @@
 	}
 
 	.address-item__email:before {
-		background-image: url("../../images/envelope1024.svg");
+		background-image: url("../../images/email1440.svg");
 		min-width: 26px;
 		min-height: 26px;
 	}
@@ -235,8 +235,21 @@
 }
 
 @media (max-width:1024px) {
+	.footer {
+		margin-bottom: 95px;
+	}
+
 	.footer-address {
 		min-width: 303px;
+	}
+
+	.address-item__location {
+		margin-bottom: 45px;
+	}
+
+	.address-item__phone {
+		margin-bottom: 7px;
+		letter-spacing: -0.3px;
 	}
 
 	.address-item__location:before {
@@ -270,7 +283,7 @@
 	.address-item__phone,
 	.address-item__email {
 		text-align: center;
-		margin-bottom: 27px;
+		margin-bottom: 29px;
 	}
 
 	.address-item__location:before {
@@ -299,6 +312,26 @@
 }
 
 @media (max-width:768px) {
+	.contacts__title {
+		margin-bottom: 30px;
+	}
+
+	.address-item {
+		margin-bottom: 25px;
+	}
+
+	.address-item__location {
+		padding-left: 30px;
+	}
+
+	.address-item__phone {
+		padding-left: 47px;
+	}
+
+	.address-item__email {
+		padding-left: 33px;
+	}
+
 	.address-item__location:before {
 		right: 410px;
 	}
@@ -313,10 +346,12 @@
 
 	.social-item {
 		padding-left: 225px;
+		margin-bottom: 25px;
 	}
 
 	.footer-map {
 		min-width: 680px;
+		min-height: 337px;
 	}
 }
 
@@ -402,7 +437,8 @@
 
 	.footer-map {
 		background-image: url("../../images/map768.png");
-		min-width: 280px;
+		background-size: cover;
+		min-width: 270px;
 		min-height: 194px;
 	}
 }
@@ -456,10 +492,19 @@
 }
 
 @media (max-width:320px) {
+	.footer {
+		margin-bottom: 60px;
+	}
+
 	.footer-map {
 		background-image: url("../../images/map320.png");
 		min-width: 280px;
 		min-height: 194px;
+	}
+
+	.social-item {
+		padding-left: 49px;
+		margin-bottom: 32px;
 	}
 }
 
@@ -483,7 +528,6 @@
 	.footer-map {
 		min-width: 0;
 		max-width: 280px;
-		min-height: 0;
-		max-height: 194px;
+		min-height: 194px;
 	}
 }

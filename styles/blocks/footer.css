@@ -65,7 +65,7 @@
 
 .address-item__email:before {
 	content: "";
-	background-image: url("../../images/envelope.svg");
+	background-image: url("../../images/email1440.svg");
 	background-repeat: no-repeat;
 	min-width: 35px;
 	min-height: 32px;

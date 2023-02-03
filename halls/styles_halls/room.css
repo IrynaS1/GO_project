@@ -16,7 +16,7 @@
 	min-height: 424px;
 	content: "";
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .room-block__picture_vibes {
@@ -68,5 +68,159 @@
 
 	.room-block__description-text_mb {
 		margin-bottom: 15px;
+	}
+}
+
+@media (max-width:1396.36px) {
+
+	.room-block__description_wild-west,
+	.room-block__description_star-wars,
+	.room-block__description_neon-style {
+		padding-top: 50px;
+	}
+}
+
+@media (max-width:1228.80px) {
+
+	.room-block__description_wild-west,
+	.room-block__description_star-wars {
+		padding-top: 80px;
+	}
+}
+
+@media (max-width:1024px) {
+	.room {
+		margin-bottom: 70px;
+	}
+
+	.room-block {
+		gap: 30px;
+	}
+
+	.room__title {
+		margin-bottom: 34px;
+	}
+
+	.room-block__picture {
+		min-width: 461px;
+		min-height: 326px;
+	}
+
+
+	.room-block__description-text {
+		font-size: 18px;
+	}
+
+	.room-block__description_vibes {
+		padding-top: 87px;
+	}
+
+	.room-block__description_wild-west,
+	.room-block__description_star-wars,
+	.room-block__description_neon-style {
+		padding-top: 50px;
+	}
+}
+
+@media (max-width:877.71px) {
+	.room {
+		margin-bottom: 60px;
+	}
+
+	.room__title {
+		margin-bottom: 30px;
+	}
+
+	.room-block {
+		gap: 45px;
+	}
+
+	.room-block__picture {
+		min-width: 430px;
+		min-height: 326px;
+		background-size: cover;
+		object-fit: cover;
+	}
+
+	.room-block__description_vibes {
+		padding-top: 74px;
+	}
+
+	.room-block__description_wild-west,
+	.room-block__description_star-wars,
+	.room-block__description_neon-style {
+		padding-top: 40px;
+	}
+
+	.room-block__description {
+		max-width: 500px;
+		max-height: 183px;
+	}
+
+	.room-block__description-text {
+		font-size: 16px;
+	}
+}
+
+@media (max-width:768px) {
+	.room-block__picture {
+		min-width: 329px;
+	}
+}
+
+@media (max-width:614.40px) {
+	.room {
+		margin-bottom: 30px;
+	}
+
+	.room__title {
+		margin-bottom: 15px;
+	}
+
+	.room-block {
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	.room-block__picture {
+		min-width: 270px;
+		min-height: 190px;
+		background-size: contain;
+		object-fit: contain;
+	}
+
+	.room-block__description {
+		padding-top: 0;
+	}
+
+	.room-block__description-text {
+		font-size: 12px;
+		line-height: 16px;
+	}
+}
+
+@media (max-width:512px) {
+	.room-block__picture {
+		background-size: contain;
+		background-position: center;
+		object-fit: contain;
+	}
+}
+
+@media (max-width:320px) {
+	.room-block__picture {
+		min-width: 280px;
+		min-height: 180px;
+		background-size: cover;
+	}
+}
+
+@media (max-width:307.20px) {
+	.room-block__picture {
+		background-size: contain;
+	}
+
+	.room-block__description {
+		max-width: 280px;
 	}
 }
