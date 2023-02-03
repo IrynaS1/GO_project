@@ -7,3 +7,24 @@
 	text-align: center;
 	text-transform: uppercase;
 }
+
+@media (max-width:1024px) {
+	.title {
+		font-size: 30px;
+		line-height: 40px;
+	}
+}
+
+@media (max-width:768px) {
+	.title {
+		font-size: 24px;
+		line-height: 36px;
+	}
+}
+
+@media (max-width:614.40px) {
+	.title {
+		font-size: 14px;
+		line-height: 18px;
+	}
+}

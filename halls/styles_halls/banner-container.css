@@ -130,3 +130,253 @@
 		letter-spacing: normal;
 	}
 }
+
+@media (max-width:1228.80px) {
+	.banner__title_wild-west {
+		top: 275px;
+		left: 410px;
+	}
+
+	.banner__title_star-wars {
+		top: 300px;
+		left: 330px;
+	}
+
+	.banner__title_vibes {
+		top: 270px;
+		left: 400px;
+	}
+
+	.banner__title_neon-style {
+		top: 280px;
+		left: 350px;
+	}
+}
+
+@media (max-width:1024px) {
+	.banner-container {
+		margin-bottom: 70px;
+	}
+
+	.banner {
+		min-height: 534px;
+	}
+
+	.banner__picture {
+		min-height: 534px;
+	}
+
+	.banner__title_vibes {
+		top: 225px;
+		left: 270px;
+	}
+
+	.banner__title_wild-west {
+		top: 220px;
+		left: 330px;
+	}
+
+	.banner__title_star-wars {
+		top: 220px;
+		left: 200px;
+	}
+
+	.banner__title_neon-style {
+		top: 230px;
+		left: 250px;
+	}
+}
+
+@media (max-width:877.71px) {
+	.banner {
+		min-height: 450px;
+	}
+
+	.banner__picture {
+		min-height: 450px;
+	}
+
+	.banner__title-text {
+		font-size: 60px;
+		line-height: 120%;
+	}
+
+	.banner__title_vibes {
+		top: 200px;
+	}
+
+	.banner__title_star-wars {
+		top: 210px;
+		left: 230px;
+	}
+
+	.banner__title_wild-west {
+		top: 190px;
+		left: 290px;
+	}
+
+	.banner__title_neon-style {
+		top: 190px;
+	}
+}
+
+@media (max-width:768px) {
+	.banner-container {
+		margin-bottom: 60px;
+	}
+
+	.banner {
+		min-height: 402px;
+	}
+
+	.banner__picture {
+		min-height: 402px;
+	}
+
+	.banner__title_wild-west {
+		top: 160px;
+		left: 240px;
+	}
+
+	.banner__title_vibes {
+		top: 165px;
+		left: 225px;
+	}
+
+	.banner__title_star-wars {
+		top: 180px;
+		left: 170px;
+	}
+
+	.banner__title_neon-style {
+		top: 170px;
+		left: 210px;
+	}
+}
+
+@media (max-width:614.40px) {
+	.banner-container {
+		margin-bottom: 30px;
+	}
+
+	.banner__title-text {
+		font-size: 40px;
+	}
+
+	.banner {
+		min-height: 310px;
+	}
+
+	.banner__picture {
+		min-height: 310px;
+		background-size: cover;
+	}
+
+	.banner__title_neon-style {
+		top: 140px;
+		left: 170px;
+	}
+
+	.banner__title_vibes,
+	.banner__title_wild-west {
+		top: 140px;
+		left: 200px;
+	}
+
+	.banner__title_star-wars {
+		top: 140px;
+		left: 180px;
+	}
+}
+
+@media (max-width:512px) {
+	.banner {
+		min-height: 260px;
+	}
+
+	.banner__title-text {
+		font-size: 30px;
+	}
+
+	.banner__picture {
+		min-height: 260px;
+	}
+
+	.banner__title_star-wars {
+		top: 120px;
+		left: 160px;
+	}
+
+	.banner__title_wild-west,
+	.banner__title_vibes {
+		top: 115px;
+		left: 170px;
+	}
+
+	.banner__title_neon-style {
+		top: 115px;
+		left: 145px;
+	}
+}
+
+@media (max-width:384px) {
+	.banner {
+		min-height: 190px;
+	}
+
+	.banner__picture {
+		min-height: 190px;
+	}
+
+	.banner__title_wild-west,
+	.banner__title_vibes {
+		top: 80px;
+		left: 120px;
+	}
+
+	.banner__title_neon-style {
+		top: 85px;
+		left: 100px;
+	}
+
+	.banner__title_star-wars {
+		top: 90px;
+		left: 90px;
+	}
+}
+
+@media (max-width:320px) {
+	.banner {
+		min-height: 161px;
+	}
+
+	.banner__picture {
+		min-height: 161px;
+	}
+
+	.banner__title_vibes {
+		top: 58px;
+		left: 79px;
+	}
+
+	.banner__title_wild-west {
+		top: 65px;
+		left: 100px;
+	}
+
+	.banner__title_star-wars {
+		top: 70px;
+		left: 40px;
+	}
+
+	.banner__title_neon-style {
+		top: 70px;
+		left: 70px;
+	}
+}
+
+@media (max-width:307.20px) {
+	.banner__title_neon-style {
+		left: 55px;
+	}
+}
