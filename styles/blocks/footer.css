@@ -483,7 +483,6 @@
 	.footer-map {
 		min-width: 0;
 		max-width: 280px;
-		min-height: 0;
-		max-height: 194px;
+		min-height: 194px;
 	}
 }
