@@ -184,27 +184,62 @@
 		margin-bottom: 30px;
 	}
 
+	.header__navigation {
+		display: none;
+	}
+
 	.header__mob-navigation {
 		display: block;
-		padding-top: 18px;
+		padding-top: 7px;
 		margin-right: 159px;
+		min-width: 58px;
+		min-height: 58px;
 	}
 
 	.header__mobnav-btn {
+		min-width: 58px;
+		min-height: 58px;
+		content: "";
+		background-image: url("../../images/menu768.svg");
+		background-repeat: no-repeat;
+		background-position: center;
 		background-color: #1B1A1B;
 		border: none;
 	}
 
-	.header__mobnav-img {
-		content: "";
-		background-image: url("../../images/menu768.svg");
-		background-repeat: no-repeat;
-		min-width: 54px;
-		min-height: 29px;
+	.header__mobnav-btn:focus {
+		border: 2px solid #840AA3;
+		transition-duration: 1.5s;
 	}
 
-	.header__navigation {
-		display: none;
+	.header__mobnav-btn:hover {
+		content: "";
+		background-image: url("../../images/menu_hover.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+		min-width: 58px;
+		min-height: 58px;
+		transition-duration: 1.5s;
+	}
+
+	.header__mobnav-btn:focus {
+		content: "";
+		background-image: url("../../images/menu_active.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+		min-width: 58px;
+		min-height: 58px;
+		transition-duration: 1.5s;
+	}
+
+	.header__mobnav-btn:active {
+		content: "";
+		background-image: url("../../images/menu_active.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+		min-width: 58px;
+		min-height: 58px;
+		transition-duration: 1.5s;
 	}
 
 	.header__logo {
