@@ -190,6 +190,11 @@
 		margin-right: 159px;
 	}
 
+	.header__mobnav-btn {
+		background-color: #1B1A1B;
+		border: none;
+	}
+
 	.header__mobnav-img {
 		content: "";
 		background-image: url("../../images/menu768.svg");

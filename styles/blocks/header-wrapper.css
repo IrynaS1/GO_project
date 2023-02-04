@@ -183,10 +183,19 @@
 		margin-bottom: 30px;
 	}
 
+	.header__navigation {
+		display: none;
+	}
+
 	.header__mob-navigation {
 		display: block;
 		padding-top: 18px;
 		margin-right: 159px;
+	}
+
+	.header__mobnav-btn {
+		background-color: #1B1A1B;
+		border: none;
 	}
 
 	.header__mobnav-img {
@@ -197,9 +206,7 @@
 		min-height: 29px;
 	}
 
-	.header__navigation {
-		display: none;
-	}
+	.header__mobnav-btn
 
 	.header__logo {
 		margin-right: 159px;
