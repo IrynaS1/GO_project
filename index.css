@@ -31,3 +31,7 @@
 @import url("./styles/blocks/footer.css");
 
 @import url("./styles/blocks/copyright.css");
+
+@import url("./styles/blocks/modal.css");
+
+@import url("./styles/blocks/overlay.css");
