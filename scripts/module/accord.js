@@ -1,8 +1,10 @@
-const faqBtns = document.querySelectorAll('.faq__item-btn');
+const liElements = document.querySelectorAll('.faq__item');
 
-const defaultOptions = (e, btn) => {
-	const faqElement = e.target.parentElement;
-	faqElement.style.marginBottom = '20px';
+const accElements = document.querySelectorAll('.faq__accord');
+console.log('accElements', accElements);
+
+const defaultOptions = (liElement, btn) => {
+	liElement.style.marginBottom = '20px';
 
 	if (btn.classList.contains('faq__item-btn_color-white')) {
 		btn.style.backgroundImage = 'url("../../images/plus_purple.png")';
@@ -11,9 +13,11 @@ const defaultOptions = (e, btn) => {
 	}
 };
 
-const activeAccord = (e, btn) => {
-	const faqElement = e.target.parentElement;
-	faqElement.style.marginBottom = '0';
+const activeAccord = (liElement, btn) => {
+	liElement.style.marginBottom = '0';
+
+	console.log('liElement-----', liElement);
+	console.log('btn', btn);
 
 	if (btn.classList.contains('faq__item-btn_color-white')) {
 		btn.style.backgroundImage = 'url("../../images/minus_for_purple_active.png")';
@@ -22,27 +26,28 @@ const activeAccord = (e, btn) => {
 	}
 };
 
-faqBtns.forEach((faqBtn) => {
-	faqBtn.addEventListener('click', (e) => {
+liElements.forEach((liElement, index) => {
+	liElement.addEventListener('click', (e) => {
 		e.preventDefault();
 
-		const faqAccElement = e.target.parentElement.nextElementSibling;
-		faqAccElement.classList.toggle('invisible');
+		accElements[index].classList.toggle('invisible');
 
-		const btn = e.target.parentElement.lastChild.previousElementSibling;
+		const btn = liElement.lastChild.previousElementSibling;
 
-		if (!faqAccElement.classList.contains('invisible')) {
-			activeAccord(e, btn);
+		if (!accElements[index].classList.contains('invisible')) {
+			accElements[index].className += '';
+			activeAccord(liElement, btn);
 		} else {
-			defaultOptions(e, btn);
+			accElements[index].className += 'faq__accord invisible';
+			defaultOptions(liElement, btn);
 		}
 	});
 });
 
-const resetFaqOptions = (faqAccItem) => {
-	faqAccItem.classList.add('invisible');
+const resetFaqOptions = (accElement) => {
+	accElement.classList.add('invisible');
 
-	const faqLiItem = faqAccItem.previousElementSibling;
+	const faqLiItem = accElement.previousElementSibling;
 	faqLiItem.style.marginBottom = '20px';
 
 	const btnLiItem = faqLiItem.childNodes[3];
@@ -57,14 +62,14 @@ const resetFaqOptions = (faqAccItem) => {
 document.addEventListener('click', (e) => {
 	e.preventDefault();
 
-	if (!e.target.classList.contains('faq__item-btn')) {
-		const faqAccItems = document.querySelectorAll('.faq__accord');
-
-		faqAccItems.forEach((faqAccItem) => {
-			if (!faqAccItem.classList.contains('invisible')) {
-				resetFaqOptions(faqAccItem);
+	if (!e.target.classList.contains('faq__item')) {
+		accElements.forEach((accElement) => {
+			if (!accElement.classList.contains('invisible')) {
+				resetFaqOptions(accElement);
 			}
 		});
 	}
 });
+
+
 
