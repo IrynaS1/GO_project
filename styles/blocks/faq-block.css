@@ -22,7 +22,7 @@
 	margin-bottom: 0;
 }
 
-.faq__item:nth-child(2n) {
+.faq__item_color {
 	color: var(--color-two, #FFFFFF);
 	background-color: var(--color-three, #440F51);
 }
@@ -43,7 +43,7 @@
 	background-position: center;
 }
 
-.faq__item-btn_color {
+.faq__item-btn_color-purple {
 	border: 2px solid var(--color-two, #FFFFFF);
 	background-color: rgba(0, 125, 215, 0);
 	background-image: url("../../images/plus_white.png");
@@ -69,7 +69,7 @@
 	transition-duration: 1.5s;
 }
 
-.faq__item-btn_color:hover {
+.faq__item-btn_color-purple:hover {
 	background: var(--color-two, #FFFFFF);
 	border: 1px solid var(--color-two, #FFFFFF);
 	background-image: url("../../images/plus_for_white_hover.png");
@@ -78,13 +78,32 @@
 	transition-duration: 1.5s;
 }
 
-.faq__item-btn_color:active {
+.faq__item-btn_color-purple:active {
 	border: 2px solid var(--color-two, #FFFFFF);
 	background: #E5E5E5;
 	background-image: url("../../images/minus_for_white_active.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	transition-duration: 1.5s;
+}
+
+.invisible {
+	display: none;
+}
+
+.faq__accord {
+	min-width: 1180px;
+	padding: 57px 70px 100px 60px;
+	background: #FFFFFF;
+	margin-bottom: 99px;
+}
+
+.faq__accord-text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
 }
 
 @media (max-width:1440px) {
@@ -105,7 +124,16 @@
 		margin-bottom: 16px;
 	}
 
+	.faq__accord {
+		min-width: 904px;
+	}
+
 	.faq__text-item {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.faq__accord-text {
 		font-size: 20px;
 		line-height: 24px;
 	}
@@ -150,6 +178,16 @@
 		min-width: 688px;
 		padding: 0 54px 0 65px;
 	}
+
+	.faq__accord {
+		min-width: 688px;
+		padding: 20px 50px 20px 50px;
+		margin-bottom: 50px;
+	}
+
+	.faq__accord-text {
+		font-size: 18px;
+	}
 }
 
 @media (max-width:768px) {
@@ -174,7 +212,18 @@
 		margin-bottom: 10px;
 	}
 
+	.faq__accord {
+		min-width: 280px;
+		padding: 10px 10px;
+		margin-bottom: 20px;
+	}
+
 	.faq__text-item {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.faq__accord-text {
 		font-size: 12px;
 		line-height: 16px;
 	}
@@ -201,5 +250,11 @@
 		min-width: 0;
 		max-width: 280px;
 		padding: 7px 13px 7px 10px;
+	}
+
+	.faq__accord {
+		min-width: 0;
+		max-width: 280px;
+		margin-bottom: 10px;
 	}
 }

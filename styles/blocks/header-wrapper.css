@@ -42,7 +42,7 @@
 }
 
 .header__nav-item:not(:last-child) {
-	margin-right: 40px;
+	margin-right: 30px;
 }
 
 .header__action {
@@ -353,7 +353,7 @@
 	}
 
 	.header__mob-navigation {
-		padding-top: 15px;
+		padding-top: 0;
 		margin-right: 150px;
 	}
 
@@ -446,8 +446,30 @@
 	}
 }
 
+@media (max-width:496px) {
+	.header__mob-menu {
+		width: 60%;
+	}
+
+	.header__mob-menu-items {
+		padding-top: 20px;
+	}
+}
+
+@media (max-width:372px) {
+	.header__mob-menu {
+		width: 77%;
+	}
+}
+
 @media (max-width:307.20px) {
 	.header-wrapper {
 		max-width: 280px;
+	}
+}
+
+@media (max-width:307.20px) {
+	.header__mob-menu {
+		width: 95%;
 	}
 }

@@ -8,6 +8,8 @@ const overlay = document.querySelector('.header__mob-overlay');
 
 const menuLinks = document.querySelectorAll('.header__mob-menu-item');
 
+const btnMobMenuCall = document.querySelector('.header__mob-button');
+
 function closeMenu() {
 	menuIcon.style.display = 'block';
 
@@ -32,25 +34,28 @@ function openMenu() {
 	requestAnimationFrame(openMenu);
 };
 
-menuIcon.addEventListener('click', () => {
+menuIcon.addEventListener('click', (e) => {
+	e.preventDefault();
+
 	requestAnimationFrame(openMenu);
 });
 
-btnClose.addEventListener('click', () => {
+btnClose.addEventListener('click', (e) => {
+	e.preventDefault();
+
 	requestAnimationFrame(closeMenu);
 });
 
 menuLinks.forEach((menuLink) => {
-	menuLink.addEventListener('click', () => {
+	menuLink.addEventListener('click', (e) => {
+		e.preventDefault();
+
 		requestAnimationFrame(closeMenu);
 	});
 });
 
-const getCall = document.querySelector('.');
+btnMobMenuCall.addEventListener('click', (e) => {
+	e.preventDefault();
 
-getCall.addEventListener('click', )
-
-
-
-
-
+	requestAnimationFrame(closeMenu);
+});

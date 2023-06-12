@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="normalize.css" rel="stylesheet" type="text/css">
 	<link href="index.css" rel="stylesheet" type="text/css">
-	<script src="./mobile_menu.js" defer></script>
+	<script type="module" src="./scripts/script.js"></script>
 	<title>Game over - У нас есть все для классного
 		отдыха с друзьями!</title>
 </head>
@@ -53,36 +53,66 @@
 				<div class="header__action">
 					<button class="header__button">заказать звонок</button>
 				</div>
+				<div class="modal">
+					<div class="modal__wrapper">
+						<div class="modal__close">
+							<button class="modal__close-btn"></button>
+						</div>
+						<div class="modal__title">
+							<p class="modal__title-text">Заказать звонок</p>
+						</div>
+						<form class="modal__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+							<p class="modal__form-label">
+								<label name="modal_name">Имя</label>
+							</p>
+							<p class="modal__form-input">
+								<input for="modal_name" class="modal__form-input-line">
+							</p>
+							<p class="modal__form-label">
+								<label name="modal_phone">Телефон</label>
+							</p>
+							<p class="modal__form-input">
+								<input for="modal_phone" class="modal__form-input-line">
+							</p>
+							<div class="modal__call">
+								<button class="modal__call-btn">Позвонить мне</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="overlay"></div>
 			</div>
-		</header>
-		<!-- Блок Burger Menu-->
-		<div class="header__mob-menu">
-			<div class="header__mob-menu-block">
-				<nav>
-					<ul class="header__mob-menu-items">
-						<li class="header__mob-menu-item">
-							<a href="#halls">залы</a>
-						</li>
-						<li class="header__mob-menu-item">
-							<a href="#about-us">о нас</a>
-						</li>
-						<li class="header__mob-menu-item">
-							<a href="#order">бронь</a>
-						</li>
-						<li class="header__mob-menu-item">
-							<a href="#reviews">отзывы</a>
-						</li>
-						<li class="header__mob-menu-item">
-							<a href="#contacts">контакты</a>
-						</li>
-					</ul>
-				</nav>
-				<div class="header__mob-action">
-					<button class="header__mob-button">заказать звонок</button>
+
+			<!-- Блок Burger Menu-->
+			<div class="header__mob-menu">
+				<div class="header__mob-menu-block">
+					<nav>
+						<ul class="header__mob-menu-items">
+							<li class="header__mob-menu-item">
+								<a href="#halls">залы</a>
+							</li>
+							<li class="header__mob-menu-item">
+								<a href="#about-us">о нас</a>
+							</li>
+							<li class="header__mob-menu-item">
+								<a href="#order">бронь</a>
+							</li>
+							<li class="header__mob-menu-item">
+								<a href="#reviews">отзывы</a>
+							</li>
+							<li class="header__mob-menu-item">
+								<a href="#contacts">контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__mob-action">
+						<button class="header__mob-button">заказать звонок</button>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="header__mob-overlay"></div>
+			<div class="header__mob-overlay"></div>
+		</header>
+		
 		<main>
 			<div class="top-block">
 
@@ -492,23 +522,58 @@
 				<ul class="faq">
 					<li class="faq__item">
 						<span class="faq__text-item">Можно ли забронировать комнату онлайн?</span>
-						<button class="faq__item-btn"></button>
+						<button class="faq__item-btn faq__item-btn_color-white"></button>
 					</li>
-					<li class="faq__item">
+					<div class="faq__accord invisible">
+						<p class="faq__accord-text">
+							Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете
+							забронировать комнату позвонив по телефону <strong>8 (999) 958 - 48 - 38</strong>
+						</p>
+					</div>
+
+					<li class="faq__item faq__item_color">
 						<span class="faq__text-item faq__text-item_second">Могут ли мне вернуть деньги за бронь?</span>
-						<button class="faq__item-btn faq__item-btn_color"></button>
+						<button class="faq__item-btn faq__item-btn_color-purple"></button>
 					</li>
+					<div class="faq__accord invisible">
+						<p class="faq__accord-text">
+							Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете
+							забронировать комнату позвонив по телефону <strong>8 (999) 958 - 48 - 38</strong>
+						</p>
+					</div>
+
 					<li class="faq__item">
 						<span class="faq__text-item faq__text-item_third">Какая комната самая популярная?</span>
-						<button class="faq__item-btn"></button>
+						<button class="faq__item-btn faq__item-btn_color-white"></button>
 					</li>
-					<li class="faq__item">
+					<div class="faq__accord invisible">
+						<p class="faq__accord-text">
+							Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете
+							забронировать комнату позвонив по телефону <strong>8 (999) 958 - 48 - 38</strong>
+						</p>
+					</div>
+
+					<li class="faq__item faq__item_color">
 						<span class="faq__text-item faq__text-item_fourth">Как получить VIP карту?</span>
-						<button class="faq__item-btn faq__item-btn_color"></button>
+						<button class="faq__item-btn faq__item-btn_color-purple"></button>
 					</li>
+					<div class="faq__accord invisible">
+						<p class="faq__accord-text">
+							Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете
+							забронировать комнату позвонив по телефону <strong>8 (999) 958 - 48 - 38</strong>
+						</p>
+					</div>
+
 					<li class="faq__item">
 						<span class="faq__text-item faq__text-item_fifth">Какая комната самая популярная?</span>
-						<button class="faq__item-btn"></button>
+						<button class="faq__item-btn faq__item-btn_color-white"></button>
+					</li>
+					<div class="faq__accord invisible">
+						<p class="faq__accord-text">
+							Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете
+							забронировать комнату позвонив по телефону <strong>8 (999) 958 - 48 - 38</strong>
+						</p>
+					</div>
 				</ul>
 			</div>
 		</article>
