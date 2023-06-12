@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="normalize.css" rel="stylesheet" type="text/css">
 	<link href="index.css" rel="stylesheet" type="text/css">
+	<script src="./mobile_menu.js" defer></script>
 	<title>Game over - У нас есть все для классного
 		отдыха с друзьями!</title>
 </head>
@@ -17,7 +18,10 @@
 			<div class="header-wrapper">
 				<div class="header__mob-navigation">
 					<button class="header__mobnav-btn">
-	<!--Фоновый рисунок - меню-->
+						<!--Фоновый рисунок - меню-->
+					</button>
+					<button class="header__mobnav-btn-close">
+						<!--Кнопка закрытия меню-->
 					</button>
 				</div>
 				<a href="#">
@@ -51,6 +55,31 @@
 				</div>
 			</div>
 		</header>
+		<!-- Блок Burger Menu-->
+		<div class="header__mob-menu">
+			<div class="header__mob-menu-block">
+				<nav>
+					<ul class="header__mob-menu-items">
+						<li class="header__mob-menu-item">
+							<a href="#halls">залы</a>
+						</li>
+						<li class="header__mob-menu-item">
+							<a href="#about-us">о нас</a>
+						</li>
+						<li class="header__mob-menu-item">
+							<a href="#order">бронь</a>
+						</li>
+						<li class="header__mob-menu-item">
+							<a href="#reviews">отзывы</a>
+						</li>
+						<li class="header__mob-menu-item">
+							<a href="#contacts">контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="header__mob-overlay"></div>
 		<main>
 			<div class="top-block">
 
