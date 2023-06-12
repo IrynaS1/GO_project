@@ -210,24 +210,36 @@
 	}
 
 	.header__mobnav-btn-close {
-		background-image: url('../../images/close-menu-mob.svg');
 		min-width: 41.72px;
 		min-height: 41.72px;
-		background: #1B1A1B;
+		content: "";
+		background-image: url('../../images/close-mob-btn.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #1B1A1B;
 		border: none;
+	}
+
+	.header__mobnav-btn-close:hover {
+		background-image: url('../../images/close-mob-hover.png');
+	}
+
+	.header__mobnav-btn-close:active {
+		background-image: url('../../images/close-mob-btn-active.png');
 	}
 
 	.header__mob-menu {
 		background: #1B1A1B;
-		padding: 0 40px;
+		width: 90%;
 		position: absolute;
 		top: 90px;
 		z-index: 30;
 		opacity: 1;
 	}
 
-	.header__mob-menu-block {
-		padding: 58px 284px;
+	.header__mob-menu-items {
+		padding-top: 58px;
+		padding-bottom: 59px;
 	}
 
 	.header__mob-menu-item {
@@ -240,8 +252,26 @@
 		color: #FFFFFF;
 	}
 
-	.header__mob-menu-item:not(:last-child) {
-		margin-bottom: 39px;
+	.header__mob-menu-item {
+		padding-top: 19px;
+		padding-bottom: 16px;
+	}
+
+	.header__mob-menu-item:first-child {
+		padding-bottom: 16px;
+	}
+
+	.header__mob-menu-item:last-child {
+		padding-top: 19px;
+	}
+
+	.header__mob-menu-item:hover {
+		background: #6C0287;
+	}
+
+
+	.header__mob-menu-item:active {
+		background: #CD06FF;
 	}
 
 	.header__mobnav-btn:focus {
@@ -342,6 +372,77 @@
 
 	.header__action {
 		display: none;
+	}
+
+	.header__mobnav-btn-close {
+		min-width: 31.02px;
+		min-height: 30.02px;
+		background-image: url("../../images/close-mob-btn600.png");
+	}
+
+	.header__mob-menu {
+		width: 48%;
+		top: 70px;
+	}
+
+	.header__mob-menu-item {
+		font-size: 14px;
+	}
+
+	.header__mob-menu-items {
+		padding-top: 36px;
+		padding-bottom: 29px;
+	}
+
+	.header__mob-menu-item {
+		padding-top: 9px;
+		padding-bottom: 9px;
+	}
+
+	.header__mob-menu-item:first-child {
+		padding-bottom: 9px;
+	}
+
+	.header__mob-menu-item:last-child {
+		padding-top: 9px;
+	}
+
+	.header__mob-action {
+		padding-left: 50px;
+		padding-bottom: 27px;
+	}
+
+	.header__mob-button {
+		padding: 11px 23px;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 14px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		border: 2px solid #CD06FF;
+		border-radius: 6px;
+		background: #1B1A1B;
+	}
+
+	.header__mob-button:hover {
+		background: var(--color-one, #6C0287);
+		border: 1px solid var(--color-one, #6C0287);
+		border-radius: 7px;
+		transition-duration: 1.5s;
+	}
+
+	.header__mob-button:focus {
+		background: var(--color-one, #6C0287);
+		border-radius: 10px;
+		transition-duration: 2s;
+	}
+
+	.header__mob-button:active {
+		background: #640AA3;
+		border: 1px solid #000000;
+		border-radius: 10px;
+		transition-duration: 2s;
 	}
 }
 

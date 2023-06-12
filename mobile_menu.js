@@ -6,17 +6,9 @@ const menu = document.querySelector('.header__mob-menu');
 
 const overlay = document.querySelector('.header__mob-overlay');
 
-menuIcon.addEventListener('click', () => {
-	menuIcon.style.display = 'none';
+const menuLinks = document.querySelectorAll('.header__mob-menu-item');
 
-	btnClose.style.display = 'block';
-
-	menu.style.display = 'block';
-
-	overlay.style.display = 'block';
-});
-
-btnClose.addEventListener('click', () => {
+function closeMenu() {
 	menuIcon.style.display = 'block';
 
 	btnClose.style.display = 'none';
@@ -25,7 +17,40 @@ btnClose.addEventListener('click', () => {
 
 	overlay.style.display = 'none';
 
+	requestAnimationFrame(closeMenu);
+};
+
+function openMenu() {
+	menuIcon.style.display = 'none';
+
+	btnClose.style.display = 'block';
+
+	menu.style.display = 'block';
+
+	overlay.style.display = 'block';
+
+	requestAnimationFrame(openMenu);
+};
+
+menuIcon.addEventListener('click', () => {
+	requestAnimationFrame(openMenu);
 });
+
+btnClose.addEventListener('click', () => {
+	requestAnimationFrame(closeMenu);
+});
+
+menuLinks.forEach((menuLink) => {
+	menuLink.addEventListener('click', () => {
+		requestAnimationFrame(closeMenu);
+	});
+});
+
+const getCall = document.querySelector('.');
+
+getCall.addEventListener('click', )
+
+
 
 
 
